@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss";
 
+const plugin = require('tailwindcss/plugin')
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -13,8 +15,16 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        'mainColor': '#1FA184',
+        'secondColor': '#313C42',
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function({ addVariant }) {
+      addVariant('hoverAndFocus', ['&:hover', '&:focus'])
+    })
+  ],
 };
 export default config;
