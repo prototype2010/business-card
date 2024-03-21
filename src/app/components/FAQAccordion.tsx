@@ -2,7 +2,7 @@
 import { LegacyRef, useRef } from "react";
 
 
-const Accordion = (props) => {
+const FAQAccordion = (props) => {
     const contentElement = useRef<LegacyRef<HTMLDivElement>>();
     const { handleToggle, active, faq } = props;
     const { header, id, text } = faq;
@@ -23,4 +23,4 @@ const Accordion = (props) => {
     )
 }
 
-export default Accordion
+export default FAQAccordion
