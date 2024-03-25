@@ -47,30 +47,31 @@ const Home = () => {
   return (
       <>
           <Header setSideBarShown={setSideBarShown}/>
-          <div className={'container mx-auto max-w-screen-2xl'}>
-              <div className={'flex'}>
-                      <div className={'sticky top-0'}>
-                          <div className={'ml-8 bg-mainColor h-[395px]'}>
+          <div className={'lg:block container mx-auto max-w-screen-2xl'}>
+              <div className={'block lg:flex'}>
+                  <div>
+                      <div className={'lg:sticky top-0'}>
+                          <div className={'lg:ml-8 bg-mainColor h-[395px]'}>
                               <WidgetCard/>
                           </div>
-                          <div className={'ml-8 bg-secondColor w-[290px] h-[130px] text-center'} >
+                          <div className={'lg:ml-8 bg-secondColor lg:w-[290px] lg:h-[130px] text-center'} >
                               <button className={'bg-black text-white rounded-full text-xl mt-10 px-2 py-2 hover:opacity-60'}>DOWNLOAD CV</button>
                           </div>
                       </div>
-                    <div className={'w-[842px]'}>
-                        <HomeContent/>
-                    </div>
-                  <div className={'flex-initial ml-2'}>
+                  </div>
+                  <div className={'lg:w-[842px]'}>
+                      <HomeContent/>
+                  </div>
+                  <div className={'lg:flex hidden'}>
                       <NavScrollBar/>
                   </div>
               </div>
           </div>
-
-          <svg className={'hidden-sm hidden-xs h-[519px] w-[758px] fill-inherit absolute top-0 left-0 -z-50'}>
+          <svg className={'hidden lg:flex h-[519px] w-[758px] fill-inherit absolute top-0 left-0 -z-50'}>
               <polygon points={'0,455,693,352,173,0,92,0,0,71'}></polygon>
           </svg>
           <ArrowPageUp/>
-          <div className={'hidden-sm hidden-xs h-[100%] absolute top-0 right-0 '}>
+          <div className={'hidden lg:flex h-[100%] absolute top-0 right-0 '}>
               <svg className={'h-[536px] w-[633px] fill-mainColor fixed top-0 right-0 -z-50'}>
                   <polygon points={'0,0,633,0,633,536'}></polygon>
               </svg>

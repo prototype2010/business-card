@@ -8,6 +8,7 @@ import ArrowPageUp from "@/app/components/ArrowPageUp";
 import Header from "@/app/components/Header";
 import BlogContent from "@/app/components/BlogContent";
 import BlogModal from "@/app/components/modal/BlogModal";
+import ErrorCard from "@/app/components/ErrorCard";
 
 
 export const faqs = [
