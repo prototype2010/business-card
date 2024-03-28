@@ -4,7 +4,7 @@ import WidgetCard from "@/app/components/WidgetCard";
 const HomeModal = () => {
 
     return(
-        <>
+        <div className={'md:h-screen h-full pb-4 md:pb-0'}>
             <div className={'max-w-[312px]'}>
                 <div className={'mx-auto mt-2.5 bg-mainColor h-[395px] w-[290px]'}>
                     <WidgetCard/>
@@ -51,7 +51,7 @@ const HomeModal = () => {
                     <a href="#" className={'hover:opacity-60'}>How to Create Online CV and Resume</a>
                 </li>
             </ul>
-        </>
+        </div>
     )
 }
 

@@ -6,7 +6,7 @@ const BlogContent = () => {
 
     return(
         <>
-            <h1 className={'text-2xl font-bold text-white h-[33px] uppercase ml-16'}>Blog</h1>
+            <h1 className={'text-2xl font-bold text-white h-[33px] uppercase ml-8 lg:ml-16'}>Blog</h1>
             <hr className={'h-px my-8 bg-white border-0 w-[85%] mx-auto'}/>
             <BlogCard
                 name={'HOW TO CREATE GOOGLE FONT DEVELOPER API KEY'}

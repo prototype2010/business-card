@@ -5,7 +5,7 @@ const ProgressLine = (props) => {
 
     return(
         <div>
-            <div className={'flex mt-2 font-bold justify-between text-white'}>
+            <div className={'flex mt-2 font-bold justify-between text-white font-aldrich'}>
                 <span>{name}</span>
                 <div>{percentage}%</div>
             </div>

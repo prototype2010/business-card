@@ -9,12 +9,11 @@ const WidgetCard = () => {
             <aside >
                 <div className={'w-[195px] h-[195px] m-auto pt-2'}>
                     <Image src="/az.jpg" width="200" height="200" className={'rounded-full mt-8'} alt={'photo'}/>
-                    {/*<img className={'rounded-full mt-8'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/08/certy-programmer-2-195x195.png" alt="photo"/>*/}
                 </div>
             </aside>
             <aside>
-                <h2 className={'mt-14 font-bold text-center text-xl text-white'}>Alexander Zakorko</h2>
-                <p className={'text-center font-bold mt-2 text-lg text-white italic'}>Frontend Developer</p>
+                <h2 className={'mt-14 font-bold text-center text-xl text-white font-aldrich uppercase'}>Alexander Zakorko</h2>
+                <p className={'text-center font-bold mt-2 text-lg text-white font-armata'}>Frontend Developer</p>
                 <ul className={'flex justify-around mt-6'} >
                     <li className={'hover:opacity-60 cursor-pointer'} >
                           <span className="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-white">

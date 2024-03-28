@@ -3,7 +3,7 @@
 const BlogModal = () => {
 
     return(
-        <div className={'max-w-[412px] text-gray-600 font-bold uppercase'}>
+        <div className={'max-w-[412px] text-gray-600 font-bold uppercase h-screen pb-4 md:pb-0'}>
             <h2 className={'mt-4 text-center'}>Recent Comments</h2>
             <hr className={'mt-8 border-black w-[80%]'}/>
             <aside className={'mt-8 w-308px'}>

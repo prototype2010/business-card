@@ -28,7 +28,7 @@ const ModalSideBar = (props) => {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
                         </svg>
                     </button>
-                    <div className={'flex-col h-[1274px] bg-gray-800 z-50'}>
+                    <div className={'flex-col bg-gray-800 z-50'}>
                         { children }
                     </div>
                 </div>

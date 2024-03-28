@@ -8,6 +8,7 @@ import ArrowPageUp from "@/app/components/ArrowPageUp";
 import Header from "@/app/components/Header";
 import HomeContent from "@/app/components/HomeContent";
 import HomeModal from "@/app/components/modal/HomeModal";
+import HomeNavMenu from "@/app/components/HomeNavMenu";
 
 
 export const faqs = [
@@ -47,6 +48,7 @@ const Home = () => {
   return (
       <>
           <Header setSideBarShown={setSideBarShown}/>
+          <HomeNavMenu/>
           <div className={'lg:block container mx-auto max-w-screen-2xl'}>
               <div className={'block lg:flex'}>
                   <div>
@@ -55,7 +57,7 @@ const Home = () => {
                               <WidgetCard/>
                           </div>
                           <div className={'lg:ml-8 bg-secondColor lg:w-[290px] lg:h-[130px] text-center'} >
-                              <button className={'bg-black text-white rounded-full text-xl mt-10 px-2 py-2 hover:opacity-60'}>DOWNLOAD CV</button>
+                              <button className={'bg-black text-white rounded-full font-rubik text-lg mt-10 px-2 py-2 hover:shadow-sm hover:shadow-mainColor'}>DOWNLOAD CV</button>
                           </div>
                       </div>
                   </div>
@@ -71,12 +73,12 @@ const Home = () => {
               <polygon points={'0,455,693,352,173,0,92,0,0,71'}></polygon>
           </svg>
           <ArrowPageUp/>
-          <div className={'hidden lg:flex h-[100%] absolute top-0 right-0 '}>
+          <div className={'hidden lg:flex h-[100%] absolute top-0 right-0'}>
               <svg className={'h-[536px] w-[633px] fill-mainColor fixed top-0 right-0 -z-50'}>
                   <polygon points={'0,0,633,0,633,536'}></polygon>
               </svg>
           </div>
-          { isSideBarShown && <ModalSideBar setSideBarShown={setSideBarShown} children={<HomeModal/>}/> }
+          {/*{ isSideBarShown && <ModalSideBar setSideBarShown={setSideBarShown} children={<HomeModal/>}/> }*/}
       </>
 
   );
