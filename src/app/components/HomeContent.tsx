@@ -36,7 +36,7 @@ const HomeContent = () => {
                     <h3 className={'text-gray-500 font-bold text-xl lg:pt-0 pt-10 font-aldrich'}>personal information</h3>
                     <div className={'flex mt-8 text-white space-x-2'}>
                         <span className={'font-bold w-28 font-aldrich'}>FULL NAME</span>
-                        <p className={'w-1/2 break-words font-aldrich'}>Robert Smith</p>
+                        <p className={'w-1/2 break-words font-aldrich'}>Alexander Zakorko</p>
                     </div>
                     <div className={'flex mt-2 text-white space-x-2'}>
                         <span className={'font-bold w-28 font-aldrich'}>D.O.B.</span>
@@ -159,7 +159,7 @@ const HomeContent = () => {
                 <div>
                     <div className={'flex md:pl-6 pl-2 pt-8 lg:pl-12'}>
                           <span className={'flex-initial w-20 xs:w-36 md:w-48 h-8 bg-mainColor text-center leading-8'}>
-                              <span className={'text-white xxs:text-xs md:text-lg'}>2015-2017</span>
+                              <span className={'text-white xxs:text-xs md:text-lg'}>2019-2021</span>
                           </span>
                         <div className={'w-0 h-0 border-t-[16px] border-t-transparent border-l-[14px] border-l-mainColor border-b-[16px] border-b-transparent'}></div>
                         <div className={'mt-4 ml-3 xxs:ml-1'}>
@@ -167,15 +167,15 @@ const HomeContent = () => {
                             <div className={'h-[150%] bg-mainColor w-[2px] ml-[1px]'}></div>
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
-                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>FULL STACK DEVELOPER</h3>
-                            <img className={'mt-4 mb-2'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-envato.png" alt="company"/>
-                            <span className={'text-gray-500 font-armata'}>Loft Studio</span>
-                            <p className={'text-white pt-4 pr-2 xxs:text-sm lg:text-base'}>Worked as part of a multi-disciplinary team, carrying out ad-hoc tasks as requested by the IT Manager. Had a specific brief to ensure the websites build for customer’s precisely matched their requirements.developers and marketers.</p>
+                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Frontend engineer</h3>
+                            <img className={'mt-4 mb-2 w-32 h-32'} src="/brocoders.jpg" alt="brocoders"/>
+                            <span className={'text-gray-500 font-armata'}>Software Development Company</span>
+                            <p className={'text-white pt-4 pr-2 xxs:text-sm lg:text-base'}>React,Redux,Redux-saga,TypeScript,Vanila JS, Material Ui,Unit tests, Integration tests,</p>
                         </div>
                     </div>
                     <div className={'flex md:pl-6 pl-2 pt-8 lg:pl-12'}>
                                   <span className={'flex-initial md:w-48 w-20 xs:w-36 h-8 bg-mainColor text-center leading-8 '}>
-                                      <span className={'text-white xxs:text-xs md:text-lg'}>2012-2015</span>
+                                      <span className={'text-white xxs:text-xs md:text-lg'}>2017-2019</span>
                                   </span>
                         <div className={'w-0 h-0 border-t-[16px] border-t-transparent border-l-[14px] border-l-mainColor border-b-[16px] border-b-transparent'}></div>
                         <div className={'mt-4 ml-3 xxs:ml-1'}>
@@ -183,55 +183,56 @@ const HomeContent = () => {
                             <div className={'xs:h-[114.5%] md:h-[123%] 912:h-[125%] 1261:h-[117%] lg:h-[115%] xl:h-[118%] bg-mainColor w-[2px] ml-[1px] 2xs:h-[120%] h-[108%]'}></div>
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
-                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>SYSTEMS ANALYST / WEB DEVELOPER</h3>
-                            <img className={'mt-4 mb-2'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-bootstrap.png" alt="company"/>
-                            <span className={'text-gray-500 font-armata'}>Noemi Productions LTD</span>
-                            <p className={'text-white pt-4 pr-2 xxs:text-sm lg:text-base'}>Rebuilt and enhanced existing ASP B2C site with ASP.NET 2.0 Framework and tools. Technology consists of ASP.NET 2.0 (C#), IIS, Microsoft SQL Server 2005, Stored Procedures & PayPal Instant Payment Notification.</p>
+                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Javascript developer</h3>
+                            <img className={'mt-4 mb-2 h-36'} src="/softIndustry.jpg" alt="softIndustry"/>
+                            <span className={'text-gray-500 font-armata'}>Soft Industry Alliance Ltd.</span>
+                            <p className={'text-white pt-4 pr-2 xxs:text-sm lg:text-base'}>React,Redux,Vanilla JS,Node.js</p>
                         </div>
                     </div>
                     <div className={'flex md:pl-6 pl-1 pt-8 pb-12 xxs:pl-2 lg:pl-12'}>
                                   <span className={'flex-initial w-20 xs:w-36 md:w-48 h-8 bg-mainColor text-center leading-8 '}>
-                                      <span className={'text-white text-xs md:text-lg'}>2009-2012</span>
+                                      <span className={'text-white text-xs md:text-lg'}>2016-2017</span>
                                   </span>
                         <div className={'w-0 h-0 border-t-[16px] border-t-transparent border-l-[14px] border-l-mainColor border-b-[16px] border-b-transparent'}></div>
                         <div className={'mt-4 md:ml-1 ml-4 xxs:ml-1'}>
                             <div className={'w-1 h-1 bg-white rounded-full'}></div>
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
-                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>WEBMASTER / WEB DEVELOPER</h3>
-                            <img className={'mt-4 mb-2'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-jquery.png" alt="company"/>
-                            <span className={'text-gray-500 font-armata'}>Boombox Group</span>
-                            <p className={'text-white pt-4 xxs:text-sm lg:text-base'}>Developed, managed, operated and promoted an Internet business.Handled customer support issues.Planned and managed business finances.</p>
+                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Test Automation Engineer</h3>
+                            <img className={'mt-4 mb-2 w-48 h-10'} src="/netCracker.png" alt="netCracker"/>
+                            <span className={'text-gray-500 font-armata'}>Netcraker technology</span>
+                            <p className={'text-white pt-4 xxs:text-sm lg:text-base'}>Test automation using Selenium,Java,JavaScript</p>
                         </div>
                     </div>
                     <hr className={'border-1 border-gray-800 w-5/6 mx-auto mt-4'}/>
                     <div className={'pb-20'}>
                         <h2 className={'text-white font-bold text-2xl pt-8 pl-10'}>EDUCATION</h2>
-                        <div className={'flex md:pl-6 pl-2 pt-8 lg:pl-12'}>
-                              <span className={'flex-initial md:w-1/3 xs:w-36 md:w-48 w-28 h-8 bg-mainColor text-center leading-8 '}>
-                                  <span className={'text-white text-xs md:text-lg'}>2006-2008</span>
-                              </span>
-                            <div className={'w-0 h-0 border-t-[16px] border-t-transparent border-l-[14px] border-l-mainColor border-b-[16px] border-b-transparent'}></div>
-                            <div className={'mt-4 ml-3'}>
-                                <div className={'w-1 h-1 bg-white rounded-full'}></div>
-                                <div className={'md:h-[250%] lg:h-[230%] 414:h-[200%] 430:h-[253%] 412:h-[200%] h-[170%] xs:h-[200%] bg-mainColor w-[2px] ml-[1px] 2xs:h-[255%]'}></div>
-                            </div>
-                            <div className={'pl-6 flex-initial w-3/4'}>
-                                <h3 className={'lg:text-lg text-white font-bold text-sm'}>Master of Information Technology</h3>
-                                <span className={'text-gray-500 xxs:text-sm font-armata'}>MIT&T</span>
-                            </div>
-                        </div>
+                        {/*<div className={'flex md:pl-6 pl-2 pt-8 lg:pl-12'}>*/}
+                        {/*      <span className={'flex-initial md:w-1/3 xs:w-36 md:w-48 w-28 h-8 bg-mainColor text-center leading-8 '}>*/}
+                        {/*          <span className={'text-white text-xs md:text-lg'}>2006-2008</span>*/}
+                        {/*      </span>*/}
+                        {/*    <div className={'w-0 h-0 border-t-[16px] border-t-transparent border-l-[14px] border-l-mainColor border-b-[16px] border-b-transparent'}></div>*/}
+                        {/*    <div className={'mt-4 ml-3'}>*/}
+                        {/*        <div className={'w-1 h-1 bg-white rounded-full'}></div>*/}
+                        {/*        <div className={'md:h-[250%] lg:h-[230%] 414:h-[200%] 430:h-[253%] 412:h-[200%] h-[170%] xs:h-[200%] bg-mainColor w-[2px] ml-[1px] 2xs:h-[255%]'}></div>*/}
+                        {/*    </div>*/}
+                        {/*    <div className={'pl-6 flex-initial w-3/4'}>*/}
+                        {/*        <h3 className={'lg:text-lg text-white font-bold text-sm'}>Master of Information Technology</h3>*/}
+                        {/*        <span className={'text-gray-500 xxs:text-sm font-armata'}>MIT&T</span>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
                         <div className={'flex md:pl-6 pt-8 pl-2 lg:pl-12'}>
                                       <span className={'flex-initial md:w-48 md:w-1/3 xs:w-36 w-28 h-8 bg-mainColor text-center leading-8 '}>
-                                          <span className={'text-white text-xs md:text-lg'}>2002-2006</span>
+                                          <span className={'text-white text-xs md:text-lg'}>2007-2012</span>
                                       </span>
                             <div className={'w-0 h-0 border-t-[16px] border-t-transparent border-l-[14px] border-l-mainColor border-b-[16px] border-b-transparent'}></div>
-                            <div className={'mt-4 ml-3'}>
-                                <div className={'w-1 h-1 bg-white rounded-full'}></div>
-                            </div>
+                            {/*<div className={'mt-4 ml-3'}>*/}
+                            {/*    <div className={'w-1 h-1 bg-white rounded-full'}></div>*/}
+                            {/*</div>*/}
                             <div className={'pl-6 flex-initial w-3/4'}>
-                                <h3 className={'lg:text-lg text-white font-bold text-sm'}>Bachelor Computer Engineering</h3>
-                                <span className={'text-gray-500 xxs:text-sm font-armata'}>HARWARG UNIVERSITEY</span>
+                                <h3 className={'lg:text-lg text-white font-bold text-sm'}>Master of Economics,Finance</h3>
+                                <img className={'w-32 h-32 my-4'} src="/ssu.jpg" alt="university"/>
+                                <span className={'text-gray-500 xxs:text-sm font-armata'}>Sumy State University</span>
                             </div>
                         </div>
                     </div>
