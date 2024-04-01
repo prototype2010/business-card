@@ -9,7 +9,7 @@ interface PropsFAQAccordion {
 }
 
 const FAQAccordion = (props: PropsFAQAccordion) => {
-    const contentElement = useRef<MutableRefObject<LegacyRef<HTMLDivElement>>>();
+    const contentElement = useRef<LegacyRef<HTMLDivElement> | null>(null);
     const { handleToggle, active, faq } = props;
     const { header, id, text } = faq;
 
