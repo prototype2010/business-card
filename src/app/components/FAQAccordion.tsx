@@ -4,7 +4,7 @@ import {HandleToggleType, IFaqs} from "@/app/components/HomeContent";
 
 interface PropsFAQAccordion {
     active: null | number,
-    faq: Array<IFaqs>,
+    faq: IFaqs,
     handleToggle: HandleToggleType
 }
 
