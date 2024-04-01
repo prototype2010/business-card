@@ -1,6 +1,7 @@
+import HomeModal from "@/app/components/modal/HomeModal";
 
 const ModalSideBar = (props) => {
-    const { setSideBarShown, children } = props;
+    const { setSideBarShown } = props;
 
     const closeModal = (e) => {
         const modalWrap = document.getElementById('modal');
@@ -29,7 +30,7 @@ const ModalSideBar = (props) => {
                         </svg>
                     </button>
                     <div className={'flex-col bg-gray-800 z-50'}>
-                        { children }
+                        <HomeModal/>
                     </div>
                 </div>
             </div>

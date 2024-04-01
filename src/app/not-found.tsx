@@ -6,7 +6,6 @@ import NavScrollBar from "@/app/components/NavScrollBar";
 import {useState} from "react";
 import ModalSideBar from "@/app/components/ModalSideBar";
 import ErrorCard from "@/app/components/ErrorCard";
-import HomeModal from "@/app/components/modal/HomeModal";
 
 
 const NotFound = () => {
@@ -43,7 +42,7 @@ const NotFound = () => {
                     <polygon points={'0,0,633,0,633,536'}></polygon>
                 </svg>
             </div>
-            { isSideBarShown && <ModalSideBar setSideBarShown={setSideBarShown} children={<HomeModal/>}/> }
+            { isSideBarShown && <ModalSideBar setSideBarShown={setSideBarShown}/> }
         </>
     );
 }
