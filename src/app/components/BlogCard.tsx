@@ -6,7 +6,7 @@ interface PropsBlogCard {
     time: string,
     category: string,
     comments: string,
-    text: string,
+    text?: string,
 }
 
 const BlogCard = (props: PropsBlogCard) => {
