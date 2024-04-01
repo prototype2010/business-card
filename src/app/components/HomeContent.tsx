@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import ProgressLine from "@/app/components/ProgressLine";
 import CircleProgressBar from "@/app/components/CircleProgressBar";
 import FAQAccordion from "@/app/components/FAQAccordion";
@@ -206,7 +207,7 @@ const HomeContent = () => {
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
                             <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Frontend engineer</h3>
-                            <img className={'mt-4 mb-2 w-32 h-32'} src="/brocoders.jpg" alt="brocoders"/>
+                            <Image className={'mt-4 mb-2 w-32 h-32'} src="/brocoders.jpg" alt="brocoders"/>
                             <span className={'text-gray-500 font-armata'}>Software Development Company</span>
                             <p className={'text-white pt-4 pr-2 xxs:text-sm lg:text-base'}>React,Redux,Redux-saga,TypeScript,Vanila JS, Material Ui,Unit tests, Integration tests,</p>
                         </div>
@@ -222,7 +223,7 @@ const HomeContent = () => {
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
                             <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Javascript developer</h3>
-                            <img className={'mt-4 mb-2 h-36'} src="/softIndustry.jpg" alt="softIndustry"/>
+                            <Image className={'mt-4 mb-2 h-36'} src="/softIndustry.jpg" alt="softIndustry"/>
                             <span className={'text-gray-500 font-armata'}>Soft Industry Alliance Ltd.</span>
                             <p className={'text-white pt-4 pr-2 xxs:text-sm lg:text-base'}>React,Redux,Vanilla JS,Node.js</p>
                         </div>
@@ -237,7 +238,7 @@ const HomeContent = () => {
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
                             <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Test Automation Engineer</h3>
-                            <img className={'mt-4 mb-2 w-48 h-10'} src="/netCracker.png" alt="netCracker"/>
+                            <Image className={'mt-4 mb-2 w-48 h-10'} src="/netCracker.png" alt="netCracker"/>
                             <span className={'text-gray-500 font-armata'}>Netcraker technology</span>
                             <p className={'text-white pt-4 xxs:text-sm lg:text-base'}>Test automation using Selenium,Java,JavaScript</p>
                         </div>
@@ -269,7 +270,7 @@ const HomeContent = () => {
                             {/*</div>*/}
                             <div className={'pl-6 flex-initial w-3/4'}>
                                 <h3 className={'lg:text-lg text-white font-bold text-sm'}>Master of Economics,Finance</h3>
-                                <img className={'w-32 h-32 my-4'} src="/ssu.jpg" alt="university"/>
+                                <Image className={'w-32 h-32 my-4'} src="/ssu.jpg" alt="university"/>
                                 <span className={'text-gray-500 xxs:text-sm font-armata'}>Sumy State University</span>
                             </div>
                         </div>
@@ -280,29 +281,29 @@ const HomeContent = () => {
                 <h2 className={'text-white font-bold text-2xl pt-8 pl-10'}>CLIENTS</h2>
                 <ul className={'2xs:flex 2xs:flex-wrap 2xs:px-10 px-2 '}>
                     <li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>
-                        <img src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-wordpress.png" alt="client"/>
+                        <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-wordpress.png" alt="client"/>
                     </li>
                     <li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>
-                        <img src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-bootstrap.png" alt="client"/>
+                        <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-bootstrap.png" alt="client"/>
                     </li>
                     <li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>
-                        <img src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-jquery.png" alt="client"/>
+                        <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-jquery.png" alt="client"/>
                     </li>
                     <li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>
-                        <img src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-compass.png" alt="client"/>
+                        <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-compass.png" alt="client"/>
                     </li>
                     <li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>
-                        <img src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-teaspoon.png" alt="client"/>
+                        <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-teaspoon.png" alt="client"/>
                     </li>
                     <li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>
-                        <img src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-evernote.png" alt="client"/>
+                        <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-evernote.png" alt="client"/>
                     </li>
                 </ul>
                 <hr className={'border-1 border-gray-800 w-5/6 mx-auto mt-6'}/>
                 <div id={'references'}>
                     <h2 className={'text-white font-bold text-2xl pt-8 pl-10'}>REFERENCES</h2>
                     <div className={'flex md:mx-20 mx-8 mt-8 '}>
-                        <img className={'w-16 h-16 rounded-full grayscale hover:grayscale-0'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/tourguide-54x54.jpg" alt="photo"/>
+                        <Image className={'w-16 h-16 rounded-full grayscale hover:grayscale-0'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/tourguide-54x54.jpg" alt="photo"/>
                         <div className={'ml-4'}>
                             <strong className={'text-white'}>EDWIN BALLARD</strong>
                             <div className={'text-gray-500'}>West Alexandrine</div>
@@ -312,7 +313,7 @@ const HomeContent = () => {
                 </div>
                 <hr className={'border-1 border-gray-800 w-4/6 mx-auto mt-6'}/>
                 <div className={'flex md:mx-20 mx-8 mt-8'}>
-                    <img className={'w-16 h-16 rounded-full grayscale hover:grayscale-0'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/teacher-54x54.jpg" alt="photo"/>
+                    <Image className={'w-16 h-16 rounded-full grayscale hover:grayscale-0'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/teacher-54x54.jpg" alt="photo"/>
                     <div className={'ml-4'}>
                         <strong className={'text-white'}>FRANKLIN MAY</strong>
                         <div className={'text-gray-500'}>Modern LLC,HR</div>
@@ -321,7 +322,7 @@ const HomeContent = () => {
                 </div>
                 <hr className={'border-1 border-gray-800 w-4/6 mx-auto mt-6'}/>
                 <div className={'flex md:mx-20 mx-8 mt-8'}>
-                    <img className={'w-16 h-16 rounded-full grayscale hover:grayscale-0'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/architector-54x54.jpg" alt="photo"/>
+                    <Image className={'w-16 h-16 rounded-full grayscale hover:grayscale-0'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/architector-54x54.jpg" alt="photo"/>
                     <div className={'ml-4'}>
                         <strong className={'text-white'}>HATTIE MAXWELL</strong>
                         <div className={'text-gray-500'}>West Alexandrine</div>
@@ -339,8 +340,8 @@ const HomeContent = () => {
                         <button className={'text-gray-500 ml-6 text-xl font-bold hover:text-white md:mr-8'}>Work</button>
                     </div>
                     <div className={'flex flex-wrap mx-8 mt-4'}>
-                        <img className={'w-1/2'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/06/certy-team-380x253.jpg" alt=""/>
-                        <img className={'w-1/2'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/06/certy-task-380x253.jpg" alt=""/>
+                        <Image className={'w-1/2'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/06/certy-team-380x253.jpg" alt=""/>
+                        <Image className={'w-1/2'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/06/certy-task-380x253.jpg" alt=""/>
                     </div>
                 </div>
             </section>

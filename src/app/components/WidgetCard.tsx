@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image';
+import profilePic from '../../../public/az.jpg'
 
 const WidgetCard = () => {
 
@@ -8,7 +9,7 @@ const WidgetCard = () => {
         <>
             <aside >
                 <div className={'w-[195px] h-[195px] m-auto pt-2'}>
-                    <Image src="/az.jpg" width="200" height="200" className={'rounded-full mt-8'} alt={'photo'}/>
+                    <Image src={profilePic} width="200" height="200" className={'rounded-full mt-8'} alt={'photo'}/>
                 </div>
             </aside>
             <aside>
