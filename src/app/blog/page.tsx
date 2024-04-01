@@ -44,7 +44,7 @@ const Blog = () => {
                     <polygon points={'0,0,633,0,633,536'}></polygon>
                 </svg>
             </div>
-            { isSideBarShown && <ModalSideBar setSideBarShown={setSideBarShown} children={<BlogModal/>}/> }
+            { isSideBarShown && <ModalSideBar setSideBarShown={setSideBarShown}/> }
         </>
     );
 }
