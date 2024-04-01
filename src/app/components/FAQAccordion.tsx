@@ -9,7 +9,7 @@ interface PropsFAQAccordion {
 }
 
 const FAQAccordion = (props: PropsFAQAccordion) => {
-    const contentElement = React.useRef<HTMLInputElement|null>();
+    const contentElement = useRef<HTMLDivElement | null>(null);
     const { handleToggle, active, faq } = props;
     const { header, id, text } = faq;
 
