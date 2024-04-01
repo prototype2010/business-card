@@ -1,5 +1,5 @@
 'use client'
-import {LegacyRef, MutableRefObject, useRef} from "react";
+import React, {LegacyRef, MutableRefObject, useRef} from "react";
 import {HandleToggleType, IFaqs} from "@/app/components/HomeContent";
 
 interface PropsFAQAccordion {
@@ -9,7 +9,7 @@ interface PropsFAQAccordion {
 }
 
 const FAQAccordion = (props: PropsFAQAccordion) => {
-    const contentElement = useRef<LegacyRef<HTMLDivElement> | null>(null);
+    const contentElement = React.useRef<HTMLInputElement|null>();
     const { handleToggle, active, faq } = props;
     const { header, id, text } = faq;
 
