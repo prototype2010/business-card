@@ -1,7 +1,15 @@
 import Image from 'next/image'
 import Link from "next/link";
 
-const BlogCard = (props) => {
+interface PropsBlogCard {
+    name: string,
+    time: string,
+    category: string,
+    comments: string,
+    text: string,
+}
+
+const BlogCard = (props: PropsBlogCard) => {
     const  { name,time, category, comments, text } = props
 
     return(

@@ -1,6 +1,9 @@
 
+interface PropsStyledList {
+    name: string
+}
 
-const StyledList = (props) => {
+const StyledList = (props: PropsStyledList) => {
     const {name} =props;
 
     return(

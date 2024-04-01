@@ -1,6 +1,9 @@
 
+interface PropsIconList {
+    name: string
+}
 
-const IconList = (props) => {
+const IconList = (props:PropsIconList) => {
     const {name} = props;
     return(
         <li className={'flex text-white font-bold mt-2'}>

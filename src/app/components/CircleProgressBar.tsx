@@ -1,7 +1,12 @@
 'use client'
 
+interface CircleProgressBar {
+    progress: string,
+    svgSize: string,
+    name: string
+}
 
-const CircleProgressBar = (props) => {
+const CircleProgressBar = (props: CircleProgressBar) => {
     const { progress, svgSize, name } = props;
     const vieBoxSize = -0.125 * svgSize;
     const vieBox = 1.25 * svgSize;

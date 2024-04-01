@@ -1,6 +1,10 @@
 import HomeModal from "@/app/components/modal/HomeModal";
 
-const ModalSideBar = (props) => {
+interface PropsModalSideBar {
+    setSideBarShown: (value: (((prevState: boolean) => boolean) | boolean)) => void
+}
+
+const ModalSideBar = (props: PropsModalSideBar) => {
     const { setSideBarShown } = props;
 
     const closeModal = (e) => {

@@ -9,7 +9,13 @@ import Link from "next/link";
 import StyledList from "@/app/components/StyledList";
 import IconList from "@/app/components/IconList";
 
-const faqs = [
+export interface IFaqs {
+    id: number,
+    header: string,
+    text: string
+}
+
+const faqs: Array<IFaqs> = [
     {
         id: 1,
         header: 'What are the most challenging tasks on iOS',
@@ -40,10 +46,12 @@ const faqs = [
     },
 ]
 
-const HomeContent = () => {
-    const [active, setActive] = useState(null);
+export type HandleToggleType = (index: number | null) => void;
 
-    const handleToggle = (index) => {
+const HomeContent = () => {
+    const [active, setActive] = useState<null | number>(null);
+
+    const handleToggle: HandleToggleType = (index) => {
         if (active === index) {
             setActive(null);
         } else {

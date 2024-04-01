@@ -1,8 +1,14 @@
 'use client'
 import { LegacyRef, useRef } from "react";
+import {HandleToggleType, IFaqs} from "@/app/components/HomeContent";
 
+interface PropsFAQAccordion {
+    active: null | number,
+    faq: Array<IFaqs>,
+    handleToggle: HandleToggleType
+}
 
-const FAQAccordion = (props) => {
+const FAQAccordion = (props: PropsFAQAccordion) => {
     const contentElement = useRef<LegacyRef<HTMLDivElement>>();
     const { handleToggle, active, faq } = props;
     const { header, id, text } = faq;

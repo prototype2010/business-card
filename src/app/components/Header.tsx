@@ -3,7 +3,11 @@
 import Image from 'next/image';
 import Link from "next/link";
 
-const Header = (props) => {
+interface HeaderProps {
+    setSideBarShown: (value: (((prevState: boolean) => boolean) | boolean)) => void
+}
+
+const Header = (props: HeaderProps) => {
     const {setSideBarShown} = props
 
     const handleShowSideBar = () => {

@@ -1,6 +1,11 @@
 'use client'
 
-const ProgressLine = (props) => {
+interface PropsProgressLine {
+    percentage: number,
+    name: string
+}
+
+const ProgressLine = (props: PropsProgressLine) => {
     const { percentage, name } = props;
 
     return(
