@@ -12,7 +12,7 @@ const CircleProgressBar = (props: CircleProgressBar) => {
     const vieBox = (1.25 * +svgSize).toString();
     const cx = (+svgSize/2).toString();
     const dasharray = (2 * 3.14 * 50).toString();
-    const dashoffset = (dasharray * ((100 - +progress)/100)).toString();
+    const dashoffset = (+dasharray * ((100 - +progress)/100)).toString();
 
     return(
         <div className={'mx-auto font-aldrich'}>
