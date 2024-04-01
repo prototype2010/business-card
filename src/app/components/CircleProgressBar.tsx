@@ -8,11 +8,11 @@ interface CircleProgressBar {
 
 const CircleProgressBar = (props: CircleProgressBar) => {
     const { progress, svgSize, name } = props;
-    const vieBoxSize = -0.125 * svgSize;
-    const vieBox = 1.25 * svgSize;
-    const cx = svgSize/2;
+    const vieBoxSize = -0.125 * +svgSize;
+    const vieBox = 1.25 * +svgSize;
+    const cx = +svgSize/2;
     const dasharray = 2 * 3.14 * 50
-    const dashoffset = dasharray * ((100 - progress)/100)
+    const dashoffset = dasharray * ((100 - +progress)/100)
 
     return(
         <div className={'mx-auto font-aldrich'}>
