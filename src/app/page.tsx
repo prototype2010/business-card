@@ -11,37 +11,6 @@ import HomeModal from "@/app/components/modal/HomeModal";
 import HomeNavMenu from "@/app/components/HomeNavMenu";
 
 
-export const faqs = [
-    {
-        id: 1,
-        header: 'What are the most challenging tasks on iOS',
-        text: 'Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eni' +
-            'Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eniconsectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla enim, sit amet suscipit dolor dictum in'
-    },
-    {
-        id: 2,
-        header: 'What are my favorite frameworks and libs',
-        text: 'Lorem ipsum dolor sit amet, consecLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eni' +
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eni' +
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eni' +
-            'tetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla enim, sit amet suscipit dolor dictum in'
-    },
-    {
-        id: 3,
-        header: 'What kind of mistakes usual for iOS devs?',
-        text: 'Lorem ipsum dolor sit amet, consecLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eni' +
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eni' +
-            'tetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla enim, sit amet suscipit dolor dictum in'
-    },
-    {
-        id: 4,
-        header: 'Are there any advices for iOS dev beginners?',
-        text: 'Lorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eni' +
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eni' +
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eniectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla enim, sit amet suscipit dolor dictum in'
-    },
-]
-
 const Home = () => {
     const [ isSideBarShown, setSideBarShown ] = useState<boolean>(false);
 

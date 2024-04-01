@@ -4,11 +4,41 @@ import ProgressLine from "@/app/components/ProgressLine";
 import CircleProgressBar from "@/app/components/CircleProgressBar";
 import FAQAccordion from "@/app/components/FAQAccordion";
 import {useState} from "react";
-import {faqs} from "@/app/page";
 import Footer from "@/app/components/Footer";
 import Link from "next/link";
 import StyledList from "@/app/components/StyledList";
 import IconList from "@/app/components/IconList";
+
+const faqs = [
+    {
+        id: 1,
+        header: 'What are the most challenging tasks on iOS',
+        text: 'Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eni' +
+            'Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eniconsectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla enim, sit amet suscipit dolor dictum in'
+    },
+    {
+        id: 2,
+        header: 'What are my favorite frameworks and libs',
+        text: 'Lorem ipsum dolor sit amet, consecLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eni' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eni' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eni' +
+            'tetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla enim, sit amet suscipit dolor dictum in'
+    },
+    {
+        id: 3,
+        header: 'What kind of mistakes usual for iOS devs?',
+        text: 'Lorem ipsum dolor sit amet, consecLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eni' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eni' +
+            'tetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla enim, sit amet suscipit dolor dictum in'
+    },
+    {
+        id: 4,
+        header: 'Are there any advices for iOS dev beginners?',
+        text: 'Lorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eni' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eni' +
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla eniectetur adipiscing elit. Aliquam sit amet purus urna. Proin dictum fringilla enim, sit amet suscipit dolor dictum in'
+    },
+]
 
 const HomeContent = () => {
     const [active, setActive] = useState(null);
