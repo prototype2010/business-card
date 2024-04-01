@@ -18,7 +18,7 @@ const CircleProgressBar = (props: CircleProgressBar) => {
         <div className={'mx-auto font-aldrich'}>
             <svg className={'-rotate-90'} width={svgSize} height={svgSize} viewBox={`${vieBoxSize} ${vieBoxSize} ${vieBox} ${vieBox}`} version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <circle r="50" cx={cx} cy={cx} fill="transparent" stroke='#313C42' strokeWidth={'6'} strokeDasharray={dasharray} strokeDashoffset={'0'} ></circle>
-                <circle r="50" cx={cx} cy={cx} className={'stroke-mainColor'} strokeWidth={'6'} strokeLinecap={'butt'} inecap="butt" strokeDashoffset={dashoffset} fill="transparent" strokeDasharray={dasharray}></circle>
+                <circle r="50" cx={cx} cy={cx} className={'stroke-mainColor'} strokeWidth={'6'} strokeLinecap={'butt'} strokeDashoffset={dashoffset} fill="transparent" strokeDasharray={dasharray}></circle>
                 <text x="28px" y="83px" fill='white' fontSize={'22px'} fontWeight={'bold'} className={'text-white origin-center rotate-90 '}>{progress}%</text>
             </svg>
             <strong className={'text-white text-sm'}>{name}</strong>
