@@ -1,4 +1,5 @@
 import HomeModal from "@/app/components/modal/HomeModal";
+import React from "react";
 
 export interface PropsModalSideBar {
     setSideBarShown: (value: (((prevState: boolean) => boolean) | boolean)) => void
@@ -7,7 +8,7 @@ export interface PropsModalSideBar {
 const ModalSideBar = (props: PropsModalSideBar) => {
     const { setSideBarShown } = props;
 
-    const closeModal = (e) => {
+    const closeModal = (e: React.SyntheticEvent) => {
         const modalWrap = document.getElementById('modal');
         if(e.target === modalWrap) {
             e.stopPropagation()

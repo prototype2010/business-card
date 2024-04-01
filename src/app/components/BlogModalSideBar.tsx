@@ -1,11 +1,12 @@
 import HomeModal from "@/app/components/modal/HomeModal";
 import {PropsModalSideBar} from "@/app/components/ModalSideBar";
+import React from "react";
 
 
 const BlogModalSideBar = (props: PropsModalSideBar) => {
     const { setSideBarShown } = props;
 
-    const closeModal = (e) => {
+    const closeModal = (e: React.SyntheticEvent) => {
         const modalWrap = document.getElementById('modal');
         if(e.target === modalWrap) {
             e.stopPropagation()
