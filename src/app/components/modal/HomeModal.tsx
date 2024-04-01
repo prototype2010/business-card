@@ -12,7 +12,7 @@ const HomeModal = () => {
             </div>
             <h3 className={'mt-4 text-center text-gray-400 font-bold '}>Search</h3>
             <div className={'flex justify-center mt-4'}>
-                <input className={'px-2 h-10 bg-black outline-none caret-white'} selectionColor={'white'} type="text" placeholder={'search'}/>
+                <input className={'px-2 h-10 bg-black outline-none caret-white'} type="text" placeholder={'search'}/>
                 <div className={'bg-black text-white cursor-pointer flex items-center px-2'}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                          stroke="currentColor" className="w-5 h-5">

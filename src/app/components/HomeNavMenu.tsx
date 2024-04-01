@@ -6,7 +6,7 @@ const HomeNavMenu = () => {
         e.preventDefault();
 
         const target = e.target as HTMLElement;
-        const id = target.getAttribute('data-scroll');
+        const id = target.getAttribute('data-scroll') as string;
         const element = document.getElementById(id)
         element?.scrollIntoView({
             behavior: 'smooth'
