@@ -1,5 +1,5 @@
 'use client'
-import React, {LegacyRef, MutableRefObject, useRef} from "react";
+import React, { useRef } from "react";
 import {HandleToggleType, IFaqs} from "@/app/components/HomeContent";
 
 interface PropsFAQAccordion {
