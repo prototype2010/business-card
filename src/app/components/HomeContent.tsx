@@ -452,8 +452,8 @@ const HomeContent = () => {
                                 <input className={'px-4 h-10 w-5/6 mt-2 bg-black outline-none focus:shadow-md focus:shadow-mainColor'} type="text" name={'subject'}/>
                             </div>
                             <div className={'flex flex-col text-white mt-6'}>
-                                <label htmlFor="yourMessage">Your Message</label>
-                                <textarea className={'p-4 h-40 w-5/6 mt-2 bg-black outline-none focus:shadow-md focus:shadow-mainColor'} cols={40} rows={10} type={'text'} name={'yourMessage'}/>
+                                <label htmlFor="message">Your Message</label>
+                                <textarea className={'p-4 h-40 w-5/6 mt-2 bg-black outline-none focus:shadow-md focus:shadow-mainColor'} cols={40} rows={10} type={'text'} name={'message'}/>
                             </div>
                             <button className={'h-10 w-28 rounded-full bg-mainColor mt-6 hover:opacity-60'}>Send</button>
                         </div>
