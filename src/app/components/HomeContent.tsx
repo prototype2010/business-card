@@ -96,11 +96,11 @@ const HomeContent = () => {
                     </div>
                     <div className={'flex mt-2 text-white space-x-2'}>
                         <span className={'font-bold w-28 font-aldrich'}>PHONE</span>
-                        <p className={'w-1/2 break-words font-aldrich'}>+1 256 254 84 56</p>
+                        <p className={'w-1/2 break-words font-aldrich'}>+380662542615</p>
                     </div>
                     <div className={'flex mt-2 text-white space-x-2'}>
                         <span className={'font-bold w-28 font-aldrich'}>FREELANCE</span>
-                        <p className={'w-1/2 break-words font-aldrich'}>till March 25, 2016</p>
+                        <p className={'w-1/2 break-words font-aldrich'}>till March 25, 2024</p>
                     </div>
                 </div>
                 <div className={'flex-initial w-1/2 pt-10 pl-6 lg:pt-8'}>
