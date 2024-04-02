@@ -13,6 +13,7 @@ import brocoders from '../../../public/brocoders.jpg';
 import softIndustry from '../../../public/softIndustry.jpg';
 import netCracker from '../../../public/netCracker.png';
 import ssu from '../../../public/ssu.jpg';
+import factory from '../../../public/1648factory.png';
 
 export interface IFaqs {
     id: number,
@@ -200,6 +201,22 @@ const HomeContent = () => {
             <section className={'bg-secondColor lg:mt-4 lg:ml-8 font-aldrich'} id={'experience'}>
                 <h2 className={'text-white font-bold text-2xl pt-8 pl-10'}>WORK EXPERIENCE</h2>
                 <div>
+                    <div className={'flex md:pl-6 pl-2 pt-8 lg:pl-12'}>
+                          <span className={'flex-initial w-20 xs:w-36 md:w-48 h-8 bg-mainColor text-center leading-8'}>
+                              <span className={'text-white xxs:text-xs md:text-lg'}>2021</span>
+                          </span>
+                        <div className={'w-0 h-0 border-t-[16px] border-t-transparent border-l-[14px] border-l-mainColor border-b-[16px] border-b-transparent'}></div>
+                        <div className={'mt-4 ml-3 xxs:ml-1'}>
+                            <div className={'w-1 h-1 bg-white rounded-full'}></div>
+                            <div className={'h-[150%] bg-mainColor w-[2px] ml-[1px]'}></div>
+                        </div>
+                        <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
+                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Senior Frontend Developer</h3>
+                            <Image className={'mt-4 mb-2 w-32 h-32'} src={factory} alt="1648factory"/>
+                            <span className={'text-gray-500 font-armata'}>IT Services</span>
+                            <p className={'text-white pt-4 pr-2 xxs:text-sm lg:text-base'}>React,Redux,Redux-saga,TypeScript,Vanila JS, Material Ui,Unit tests, Integration tests,</p>
+                        </div>
+                    </div>
                     <div className={'flex md:pl-6 pl-2 pt-8 lg:pl-12'}>
                           <span className={'flex-initial w-20 xs:w-36 md:w-48 h-8 bg-mainColor text-center leading-8'}>
                               <span className={'text-white xxs:text-xs md:text-lg'}>2019-2021</span>
