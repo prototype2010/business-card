@@ -9,6 +9,10 @@ import Footer from "@/app/components/Footer";
 import Link from "next/link";
 import StyledList from "@/app/components/StyledList";
 import IconList from "@/app/components/IconList";
+import brocoders from '../../../public/brocoders.jpg';
+import softIndustry from '../../../public/softIndustry.jpg';
+import netCracker from '../../../public/netCracker.png';
+import ssu from '../../../public/ssu.jpg';
 
 export interface IFaqs {
     id: number,
@@ -207,7 +211,7 @@ const HomeContent = () => {
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
                             <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Frontend engineer</h3>
-                            <Image className={'mt-4 mb-2 w-32 h-32'} src="/brocoders.jpg" alt="brocoders"/>
+                            <Image className={'mt-4 mb-2 w-32 h-32'} src={brocoders} alt="brocoders"/>
                             <span className={'text-gray-500 font-armata'}>Software Development Company</span>
                             <p className={'text-white pt-4 pr-2 xxs:text-sm lg:text-base'}>React,Redux,Redux-saga,TypeScript,Vanila JS, Material Ui,Unit tests, Integration tests,</p>
                         </div>
@@ -223,7 +227,7 @@ const HomeContent = () => {
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
                             <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Javascript developer</h3>
-                            <Image className={'mt-4 mb-2 h-36'} src="/softIndustry.jpg" alt="softIndustry"/>
+                            <Image className={'mt-4 mb-2 h-36'} src={softIndustry} alt="softIndustry"/>
                             <span className={'text-gray-500 font-armata'}>Soft Industry Alliance Ltd.</span>
                             <p className={'text-white pt-4 pr-2 xxs:text-sm lg:text-base'}>React,Redux,Vanilla JS,Node.js</p>
                         </div>
@@ -238,7 +242,7 @@ const HomeContent = () => {
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
                             <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Test Automation Engineer</h3>
-                            <Image className={'mt-4 mb-2 w-48 h-10'} src="/netCracker.png" alt="netCracker"/>
+                            <Image className={'mt-4 mb-2 w-48 h-10'} src={netCracker} alt="netCracker"/>
                             <span className={'text-gray-500 font-armata'}>Netcraker technology</span>
                             <p className={'text-white pt-4 xxs:text-sm lg:text-base'}>Test automation using Selenium,Java,JavaScript</p>
                         </div>
@@ -270,7 +274,7 @@ const HomeContent = () => {
                             {/*</div>*/}
                             <div className={'pl-6 flex-initial w-3/4'}>
                                 <h3 className={'lg:text-lg text-white font-bold text-sm'}>Master of Economics,Finance</h3>
-                                <Image className={'w-32 h-32 my-4'} src="/ssu.jpg" alt="university"/>
+                                <Image className={'w-32 h-32 my-4'} src={ssu} alt="university"/>
                                 <span className={'text-gray-500 xxs:text-sm font-armata'}>Sumy State University</span>
                             </div>
                         </div>

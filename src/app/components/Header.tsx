@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image';
+import logo from '../../../public/logo.png'
 import Link from "next/link";
 
 interface HeaderProps {
@@ -32,7 +33,7 @@ const Header = (props: HeaderProps) => {
                 <div className={'flex justify-center items-center'}>
                     <div className={'flex'}>
                         <div className={'flex xs:p-4'}>
-                            <Image src="/logo.png" width="40" height="40" alt={'logo'}/>
+                            <Image src={logo} width="40" height="40" alt={'logo'}/>
                             <span className={'text-xl text-white xs:text-3xl font-bold ml-4 w-[100%] font-pacifico'}>Frontend Developer</span>
                         </div>
                         {/*<div className={'flex invisible lg:visible xl:ml-[70%]'}>*/}

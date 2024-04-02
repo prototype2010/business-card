@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image';
+import profilePic from '../../../public/az.jpg';
 
 const NavScrollBar = () => {
 
@@ -21,7 +22,7 @@ const NavScrollBar = () => {
                 <ul className={'space-y-8 '} onClick={(e) => scrollContent(e)} >
                     <li className={'flex group/item'}>
                         <div className={'flex'}>
-                            <Image src="/az.jpg" width="40" height="40" className={'rounded-full mt-8 hover:opacity-60 cursor-pointer'} data-scroll={'about'} alt={'photo'}/>
+                            <Image src={profilePic} width="40" height="40" className={'rounded-full mt-8 hover:opacity-60 cursor-pointer'} data-scroll={'about'} alt={'photo'}/>
                             <div className={'relative my-auto top-[12px] right-32 ml-1 hidden rotate-180 group-hover/item:flex xxl:rotate-0 xxl:left-0'}>
                                 <div className={'border-t-[8px] border-t-transparent border-r-[7px] border-r-gray-800 border-b-[8px] border-b-transparent my-auto'}></div>
                                 <button className={'w-[65px] h-[30px] bg-gray-800 rounded-lg text-white rotate-180 xxl:rotate-0'}>About</button>
