@@ -14,6 +14,9 @@ import softIndustry from '../../../public/softIndustry.jpg';
 import netCracker from '../../../public/netCracker.png';
 import ssu from '../../../public/ssu.jpg';
 import factory from '../../../public/1648factory.png';
+import references1 from '../../../public/references1.jpg';
+import references2 from '../../../public/references2.jpg';
+import references3 from '../../../public/references3.jpg';
 
 export interface IFaqs {
     id: number,
@@ -152,31 +155,42 @@ const HomeContent = () => {
                     </div>
                 </div>
                 <hr className={'border-1 border-gray-800 w-5/6 mx-auto mt-4'}/>
-                <div className={'lg:flex-initial md:w-1/2 mt-6 px-6 lg:pl-16'}>
-                    <h3 className={'text-gray-500 font-bold text-xl font-aldrich'}>Professional Skills</h3>
-                    <ProgressLine percentage={98} name={'WordPress'}/>
-                    <ProgressLine percentage={95} name={'JavaScript'}/>
-                    <ProgressLine percentage={97} name={'React'}/>
-                    <ProgressLine percentage={78} name={'Redux'}/>
-                    <ProgressLine percentage={68} name={'Ruby'}/>
-                </div>
-                <div className={'lg:flex-initial md:w-1/2 mt-6 pl-3'}>
-                    <h3 className={'text-gray-500 font-bold text-xl font-aldrich'}>Professional Skills</h3>
-                    <div className={'flex md:flex-row lg:justify-center py-8 flex-col items-center'}>
-                        <CircleProgressBar
-                            progress={'95'}
-                            svgSize={'100'}
-                            name={'HTML & CSS'}/>
-                        <CircleProgressBar
-                            progress={'88'}
-                            svgSize={'100'}
-                            name={'PHP & MySQL'}/>
-                        <CircleProgressBar
-                            progress={'90'}
-                            svgSize={'100'}
-                            name={'Photoshop'}/>
+                <div className={'lg:flex-initial mt-6 px-6 lg:pl-16'}>
+                    <h3 className={'text-gray-500 font-bold text-xl font-aldrich text-center'}>Professional Skills</h3>
+                    {/*<ProgressLine percentage={98} name={'WordPress'}/>*/}
+                    {/*<ProgressLine percentage={95} name={'JavaScript'}/>*/}
+                    {/*<ProgressLine percentage={97} name={'React'}/>*/}
+                    {/*<ProgressLine percentage={78} name={'Redux'}/>*/}
+                    {/*<ProgressLine percentage={68} name={'Ruby'}/>*/}
+                    <div className={'text-white h-auto space-y-3 my-4'}>
+                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>CSS</button>
+                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>JavaSript</button>
+                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>React</button>
+                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Redux</button>
+                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>TypeScript</button>
+                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>NextJS</button>
+                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>MaterialUI</button>
+                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Ruby</button>
+                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Tailwind</button>
                     </div>
                 </div>
+                {/*<div className={'lg:flex-initial md:w-1/2 mt-6 pl-3'}>*/}
+                {/*    <h3 className={'text-gray-500 font-bold text-xl font-aldrich'}>Professional Skills</h3>*/}
+                {/*    <div className={'flex md:flex-row lg:justify-center py-8 flex-col items-center'}>*/}
+                {/*        <CircleProgressBar*/}
+                {/*            progress={'95'}*/}
+                {/*            svgSize={'100'}*/}
+                {/*            name={'HTML & CSS'}/>*/}
+                {/*        <CircleProgressBar*/}
+                {/*            progress={'88'}*/}
+                {/*            svgSize={'100'}*/}
+                {/*            name={'PHP & MySQL'}/>*/}
+                {/*        <CircleProgressBar*/}
+                {/*            progress={'90'}*/}
+                {/*            svgSize={'100'}*/}
+                {/*            name={'Photoshop'}/>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
                 <hr className={'border-1 border-gray-800 w-5/6 mx-auto mt-4'}/>
                 <div className={'lg:flex-initial md:w-1/2 mt-6 pl-6 lg:pl-16 '}>
                     <h3 className={'text-gray-500 font-bold text-xl font-aldrich'}>Styled List</h3>
@@ -301,30 +315,30 @@ const HomeContent = () => {
             <section className={'bg-secondColor lg:mt-4 lg:ml-8 pb-10 font-aldrich'}>
                 <h2 className={'text-white font-bold text-2xl pt-8 pl-10'}>CLIENTS</h2>
                 <ul className={'2xs:flex 2xs:flex-wrap 2xs:px-10 px-2 '}>
-                    <li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>
-                        <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-wordpress.png"  alt="client"/>
-                    </li>
-                    <li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>
-                        <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-bootstrap.png" alt="client"/>
-                    </li>
-                    <li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>
-                        <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-jquery.png" alt="client"/>
-                    </li>
-                    <li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>
-                        <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-compass.png" alt="client"/>
-                    </li>
-                    <li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>
-                        <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-teaspoon.png" alt="client"/>
-                    </li>
-                    <li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>
-                        <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-evernote.png" alt="client"/>
-                    </li>
+                    {/*<li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>*/}
+                    {/*    <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-wordpress.png"  alt="client"/>*/}
+                    {/*</li>*/}
+                    {/*<li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>*/}
+                    {/*    <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-bootstrap.png" alt="client"/>*/}
+                    {/*</li>*/}
+                    {/*<li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>*/}
+                    {/*    <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-jquery.png" alt="client"/>*/}
+                    {/*</li>*/}
+                    {/*<li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>*/}
+                    {/*    <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-compass.png" alt="client"/>*/}
+                    {/*</li>*/}
+                    {/*<li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>*/}
+                    {/*    <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-teaspoon.png" alt="client"/>*/}
+                    {/*</li>*/}
+                    {/*<li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>*/}
+                    {/*    <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-evernote.png" alt="client"/>*/}
+                    {/*</li>*/}
                 </ul>
                 <hr className={'border-1 border-gray-800 w-5/6 mx-auto mt-6'}/>
                 <div id={'references'}>
                     <h2 className={'text-white font-bold text-2xl pt-8 pl-10'}>REFERENCES</h2>
                     <div className={'flex md:mx-20 mx-8 mt-8 '}>
-                        <Image className={'w-16 h-16 rounded-full grayscale hover:grayscale-0'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/tourguide-54x54.jpg" alt="photo"/>
+                        <Image className={'w-16 h-16 rounded-full grayscale hover:grayscale-0'} src={references1} alt="photo"/>
                         <div className={'ml-4'}>
                             <strong className={'text-white'}>EDWIN BALLARD</strong>
                             <div className={'text-gray-500'}>West Alexandrine</div>
@@ -334,7 +348,7 @@ const HomeContent = () => {
                 </div>
                 <hr className={'border-1 border-gray-800 w-4/6 mx-auto mt-6'}/>
                 <div className={'flex md:mx-20 mx-8 mt-8'}>
-                    <Image className={'w-16 h-16 rounded-full grayscale hover:grayscale-0'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/teacher-54x54.jpg" alt="photo"/>
+                    <Image className={'w-16 h-16 rounded-full grayscale hover:grayscale-0'} src={references2} alt="photo"/>
                     <div className={'ml-4'}>
                         <strong className={'text-white'}>FRANKLIN MAY</strong>
                         <div className={'text-gray-500'}>Modern LLC,HR</div>
@@ -343,7 +357,7 @@ const HomeContent = () => {
                 </div>
                 <hr className={'border-1 border-gray-800 w-4/6 mx-auto mt-6'}/>
                 <div className={'flex md:mx-20 mx-8 mt-8'}>
-                    <Image className={'w-16 h-16 rounded-full grayscale hover:grayscale-0'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/architector-54x54.jpg" alt="photo"/>
+                    <Image  className={'w-16 h-16 rounded-full grayscale hover:grayscale-0'} src={references3} alt="photo"/>
                     <div className={'ml-4'}>
                         <strong className={'text-white'}>HATTIE MAXWELL</strong>
                         <div className={'text-gray-500'}>West Alexandrine</div>
@@ -361,8 +375,8 @@ const HomeContent = () => {
                         <button className={'text-gray-500 ml-6 text-xl font-bold hover:text-white md:mr-8'}>Work</button>
                     </div>
                     <div className={'flex flex-wrap mx-8 mt-4'}>
-                        <Image className={'w-1/2'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/06/certy-team-380x253.jpg" alt=""/>
-                        <Image className={'w-1/2'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/06/certy-task-380x253.jpg" alt=""/>
+                        {/*<Image className={'w-1/2'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/06/certy-team-380x253.jpg" alt=""/>*/}
+                        {/*<Image className={'w-1/2'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/06/certy-task-380x253.jpg" alt=""/>*/}
                     </div>
                 </div>
             </section>
@@ -416,45 +430,51 @@ const HomeContent = () => {
                 <h2 className={'text-white font-bold text-2xl pt-8 pl-10'}>CONTACT ME</h2>
                 <div className={'md:pl-20 pl-6'}>
                     <header>
-                        <ul className={'flex justify-start mt-12 space-x-6'}>
+                        <ul className={'flex justify-start mt-12 space-x-8'}>
                             <li className={'hover:opacity-60 cursor-pointer'}>
-                                          <span className="[&>svg]:h-5 [&>svg]:w-5 [&>svg]:fill-white">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
-                                                    <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
-                                                </svg>
-                                          </span>
+                                <Link target='_blank' href={'https://github.com/prototype2010'}>
+                                    <span className="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                            <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+                                        </svg>
+                                  </span>
+                                </Link>
+                            </li>
+                            {/*<li className={'hover:opacity-60 cursor-pointer'}>*/}
+                            {/*                <span className="[&>svg]:h-5 [&>svg]:w-5 [&>svg]:fill-white">*/}
+                            {/*                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">*/}
+                            {/*                          <path*/}
+                            {/*                              d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/>*/}
+                            {/*                      </svg>*/}
+                            {/*                </span>*/}
+                            {/*</li>*/}
+                            {/*<li className={'hover:opacity-60 cursor-pointer'}>*/}
+                            {/*              <span className="[&>svg]:h-5 [&>svg]:w-5 [&>svg]:fill-white">*/}
+                            {/*                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">*/}
+                            {/*                      <path*/}
+                            {/*                          d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>*/}
+                            {/*                  </svg>*/}
+                            {/*              </span>*/}
+                            {/*</li>*/}
+                            <li className={'hover:opacity-60 cursor-pointer'}>
+                                <Link target='_blank' href={'https://ua.linkedin.com/in/alexander-zakorko-70858815b'}>
+                                      <span className="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-white">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                              <path
+                                                  d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/>
+                                          </svg>
+                                      </span>
+                                </Link>
                             </li>
                             <li className={'hover:opacity-60 cursor-pointer'}>
-                                            <span className="[&>svg]:h-5 [&>svg]:w-5 [&>svg]:fill-white">
-                                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                                      <path
-                                                          d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/>
-                                                  </svg>
-                                            </span>
-                            </li>
-                            <li className={'hover:opacity-60 cursor-pointer'}>
-                                          <span className="[&>svg]:h-5 [&>svg]:w-5 [&>svg]:fill-white">
-                                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                                  <path
-                                                      d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
-                                              </svg>
-                                          </span>
-                            </li>
-                            <li className={'hover:opacity-60 cursor-pointer'}>
-                                          <span className="[&>svg]:h-5 [&>svg]:w-5 [&>svg]:fill-white">
-                                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                                  <path
-                                                      d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/>
-                                              </svg>
-                                          </span>
-                            </li>
-                            <li className={'hover:opacity-60 cursor-pointer'}>
-                                          <span className="[&>svg]:h-5 [&>svg]:w-5 [&>svg]:fill-white">
-                                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
-                                                  <path
-                                                      d="M248 8C111 8 0 119 0 256S111 504 248 504 496 393 496 256 385 8 248 8zM363 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5q-3.3 .7-104.6 69.1-14.8 10.2-26.9 9.9c-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3q.8-6.7 18.5-13.7 108.4-47.2 144.6-62.3c68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9a10.5 10.5 0 0 1 3.5 6.7A43.8 43.8 0 0 1 363 176.7z"/>
-                                              </svg>
-                                          </span>
+                                <Link target='_blank' href={'https://t.me/+380662542615'}>
+                                      <span className="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-white">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                              <path
+                                                  d="M248 8C111 8 0 119 0 256S111 504 248 504 496 393 496 256 385 8 248 8zM363 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5q-3.3 .7-104.6 69.1-14.8 10.2-26.9 9.9c-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3q.8-6.7 18.5-13.7 108.4-47.2 144.6-62.3c68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9a10.5 10.5 0 0 1 3.5 6.7A43.8 43.8 0 0 1 363 176.7z"/>
+                                          </svg>
+                                      </span>
+                                </Link>
                             </li>
                         </ul>
                     </header>
