@@ -302,7 +302,7 @@ const HomeContent = () => {
                 <h2 className={'text-white font-bold text-2xl pt-8 pl-10'}>CLIENTS</h2>
                 <ul className={'2xs:flex 2xs:flex-wrap 2xs:px-10 px-2 '}>
                     <li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>
-                        <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-wordpress.png" alt="client"/>
+                        <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-wordpress.png"  alt="client"/>
                     </li>
                     <li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>
                         <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-bootstrap.png" alt="client"/>

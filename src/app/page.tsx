@@ -26,13 +26,13 @@ const Home = () => {
                           <div className={'lg:ml-8 bg-mainColor h-[395px]'}>
                               <WidgetCard/>
                           </div>
-                          <center className={'lg:ml-8 bg-secondColor lg:w-[290px] lg:h-[130px] text-center'} >
+                          <div className={'lg:ml-8 bg-secondColor lg:w-[290px] lg:h-[130px] text-center'} >
                               <Link
                                   className={'bg-black text-white rounded-full font-rubik text-lg mt-10 px-2 py-2 hover:shadow-sm hover:shadow-mainColor'}
-                                  href="/cv.pdf" download="cv">
+                                  href="/cv.pdf" download="cv" target='_blank'>
                                   DOWNLOAD CV
                               </Link>
-                          </center>
+                          </div>
                       </div>
                   </div>
                   <div className={'lg:w-[842px]'}>
