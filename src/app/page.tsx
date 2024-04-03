@@ -9,6 +9,7 @@ import Header from "@/app/components/Header";
 import HomeContent from "@/app/components/HomeContent";
 import HomeModal from "@/app/components/modal/HomeModal";
 import HomeNavMenu from "@/app/components/HomeNavMenu";
+import Link from "next/link";
 
 
 const Home = () => {
@@ -25,9 +26,13 @@ const Home = () => {
                           <div className={'lg:ml-8 bg-mainColor h-[395px]'}>
                               <WidgetCard/>
                           </div>
-                          <div className={'lg:ml-8 bg-secondColor lg:w-[290px] lg:h-[130px] text-center'} >
-                              <button className={'bg-black text-white rounded-full font-rubik text-lg mt-10 px-2 py-2 hover:shadow-sm hover:shadow-mainColor'}>DOWNLOAD CV</button>
-                          </div>
+                          <center className={'lg:ml-8 bg-secondColor lg:w-[290px] lg:h-[130px] text-center'} >
+                              <Link
+                                  className={'bg-black text-white rounded-full font-rubik text-lg mt-10 px-2 py-2 hover:shadow-sm hover:shadow-mainColor'}
+                                  href="/cv.pdf" download="cv">
+                                  DOWNLOAD CV
+                              </Link>
+                          </center>
                       </div>
                   </div>
                   <div className={'lg:w-[842px]'}>

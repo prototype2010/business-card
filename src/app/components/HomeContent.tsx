@@ -213,7 +213,7 @@ const HomeContent = () => {
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
                             <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Senior Frontend Developer</h3>
                             <Image className={'mt-4 mb-2 w-32 h-32'} src={factory} alt="1648factory"/>
-                            <span className={'text-gray-500 font-armata'}>IT Services</span>
+                            <span className={'text-gray-500 font-armata'}>1648 Factory-IT Services</span>
                             <p className={'text-white pt-4 pr-2 xxs:text-sm lg:text-base'}>React,Redux,Redux-saga,TypeScript,Vanila JS, Material Ui,Unit tests, Integration tests,</p>
                         </div>
                     </div>
@@ -229,7 +229,7 @@ const HomeContent = () => {
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
                             <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Frontend engineer</h3>
                             <Image className={'mt-4 mb-2 w-32 h-32'} src={brocoders} alt="brocoders"/>
-                            <span className={'text-gray-500 font-armata'}>Software Development Company</span>
+                            <span className={'text-gray-500 font-armata'}>Brocoders-Software Development Company</span>
                             <p className={'text-white pt-4 pr-2 xxs:text-sm lg:text-base'}>React,Redux,Redux-saga,TypeScript,Vanila JS, Material Ui,Unit tests, Integration tests,</p>
                         </div>
                     </div>
