@@ -17,6 +17,7 @@ import factory from '../../../public/1648factory.png';
 import references1 from '../../../public/references1.jpg';
 import references2 from '../../../public/references2.jpg';
 import references3 from '../../../public/references3.jpg';
+import ContactForm from "@/app/components/ContactForm";
 
 export interface IFaqs {
     id: number,
@@ -479,27 +480,7 @@ const HomeContent = () => {
                         </ul>
                     </header>
                     <h3 className={'text-white font-bold text-xl mt-12'}>Fell free to contact me in case of any question</h3>
-                    <form action="">
-                        <div>
-                            <div className={'flex flex-col text-white mt-6'}>
-                                <label htmlFor="name">Your Name (required)</label>
-                                <input className={'px-4 h-10 w-5/6 mt-2 bg-black outline-none focus:shadow-md focus:shadow-mainColor'} type="text" name={'name'}/>
-                            </div>
-                            <div className={'flex flex-col text-white mt-6'}>
-                                <label htmlFor="email">Your Email (required)</label>
-                                <input className={'px-4 h-10 w-5/6 mt-2 bg-black outline-none focus:shadow-md focus:shadow-mainColor'} type="email" name={'email'}/>
-                            </div>
-                            <div className={'flex flex-col text-white mt-6'}>
-                                <label htmlFor="subject">Subject</label>
-                                <input className={'px-4 h-10 w-5/6 mt-2 bg-black outline-none focus:shadow-md focus:shadow-mainColor'} type="text" name={'subject'}/>
-                            </div>
-                            <div className={'flex flex-col text-white mt-6'}>
-                                <label htmlFor="message">Your Message</label>
-                                <textarea className={'p-4 h-40 w-5/6 mt-2 bg-black outline-none focus:shadow-md focus:shadow-mainColor'} cols={40} rows={10} name={'message'}/>
-                            </div>
-                            <button className={'h-10 w-28 rounded-full bg-mainColor mt-6 hover:opacity-60'}>Send</button>
-                        </div>
-                    </form>
+                    <ContactForm/>
                 </div>
                 <div className={'md:p-10 p-5 font-aldrich'}>
                     <iframe
