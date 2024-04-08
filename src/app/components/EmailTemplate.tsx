@@ -1,15 +1,17 @@
 import { Html, Heading, Text } from "@react-email/components";
 
-const EmailTemplate = ({name,email,message,subject}: {
+export interface EmailTemplateProps {
     name: string
     email: string
     subject: string
     message: string
-}) => {
+}
+
+const EmailTemplate = ({name,email,message,subject}: EmailTemplateProps) => {
     return (
         <Html lang="en">
-            <Heading as="h1">New Form Submission</Heading>
-            <Text>You just submitted a form. Here are the details:</Text>
+            <Heading as="h1">New Form Submission from Upwork</Heading>
+            <Text>Here are the details:</Text>
             <Text>Name: {name}</Text>
             <Text>Email: {email}</Text>
             <Text>Subject: {subject}</Text>
