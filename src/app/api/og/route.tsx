@@ -18,7 +18,7 @@ export async function  GET( request: Request) {
             : 'My website';
 
         const imageData = await fetch(
-            new URL('imageAZ', import.meta.url)
+            new URL(imageAZ, import.meta.url)
         ).then((res) => res.arrayBuffer())
 
         return new ImageResponse(
