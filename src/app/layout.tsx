@@ -11,8 +11,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://prototype2010.github.io/business-card/api/og',
-        width: 50,
-        height: 50,
+        width: 1200,
+        height: 630,
         alt: 'frontend developer'
       }
     ]
