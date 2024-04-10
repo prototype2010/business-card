@@ -11,7 +11,7 @@ import StyledList from "@/app/components/StyledList";
 import IconList from "@/app/components/IconList";
 import brocoders from '../../../public/brocoders.jpg';
 import softIndustry from '../../../public/softIndustry.jpg';
-import netCracker from '../../../public/netCracker.png';
+import netcracer from '../../../public/netCracker.jpg';
 import ssu from '../../../public/ssu.jpg';
 import factory from '../../../public/1648factory.png';
 import references1 from '../../../public/references1.jpg';
@@ -227,7 +227,7 @@ const HomeContent = () => {
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
                             <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Senior Frontend Developer</h3>
-                            <Image className={'mt-4 mb-2 w-32 h-32'} src={factory} alt="1648factory"/>
+                            <Image className={'mt-4 mb-2 w-36 h-36'} src={factory} alt="1648factory"/>
                             <span className={'text-gray-500 font-armata'}>1648 Factory-IT Services</span>
                             <p className={'text-white pt-4 pr-2 xxs:text-sm lg:text-base'}>React,Redux,Redux-saga,TypeScript,Vanila JS, Material Ui,Unit tests, Integration tests,</p>
                         </div>
@@ -243,7 +243,7 @@ const HomeContent = () => {
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
                             <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Frontend engineer</h3>
-                            <Image className={'mt-4 mb-2 w-32 h-32'} src={brocoders} alt="brocoders"/>
+                            <Image className={'mt-4 mb-2 w-36 h-36'} src={brocoders} alt="brocoders"/>
                             <span className={'text-gray-500 font-armata'}>Brocoders-Software Development Company</span>
                             <p className={'text-white pt-4 pr-2 xxs:text-sm lg:text-base'}>React,Redux,Redux-saga,TypeScript,Vanila JS, Material Ui,Unit tests, Integration tests,</p>
                         </div>
@@ -259,7 +259,7 @@ const HomeContent = () => {
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
                             <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Javascript developer</h3>
-                            <Image className={'mt-4 mb-2 h-36'} src={softIndustry} alt="softIndustry"/>
+                            <Image className={'mt-4 mb-2 w-36 h-36'} src={softIndustry} alt="softIndustry"/>
                             <span className={'text-gray-500 font-armata'}>Soft Industry Alliance Ltd.</span>
                             <p className={'text-white pt-4 pr-2 xxs:text-sm lg:text-base'}>React,Redux,Vanilla JS,Node.js</p>
                         </div>
@@ -274,7 +274,7 @@ const HomeContent = () => {
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
                             <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Test Automation Engineer</h3>
-                            <Image className={'mt-4 mb-2 w-48 h-10'} src={netCracker} alt="netCracker"/>
+                            <Image className={'mt-4 mb-2 w-36 h-36'} src={netcracer} alt="netcracer"/>
                             <span className={'text-gray-500 font-armata'}>Netcraker technology</span>
                             <p className={'text-white pt-4 xxs:text-sm lg:text-base'}>Test automation using Selenium,Java,JavaScript</p>
                         </div>
@@ -306,7 +306,7 @@ const HomeContent = () => {
                             {/*</div>*/}
                             <div className={'pl-6 flex-initial w-3/4'}>
                                 <h3 className={'lg:text-lg text-white font-bold text-sm'}>Master of Economics,Finance</h3>
-                                <Image className={'w-32 h-32 my-4'} src={ssu} alt="university"/>
+                                <Image className={'w-36 h-36 my-4'} src={ssu} alt="university"/>
                                 <span className={'text-gray-500 xxs:text-sm font-armata'}>Sumy State University</span>
                             </div>
                         </div>
