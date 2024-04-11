@@ -4,7 +4,6 @@
 
 import Image from 'next/image';
 import {ImageResponse} from "next/og";
-import imageAZ from '../../../../public/az.jpg'
 
 export const runtime = 'edge'
 
@@ -18,8 +17,10 @@ export async function  GET( request: Request) {
             ? searchParams.get('title')?.slice(0, 100)
             : 'My website';
 
-        const imageData = await fetch(
-            new URL('../../../../public/az.jpg', import.meta.url)
+
+
+        const imageData = fetch(
+            new URL("../../../../public/az.jpg", import.meta.url)
         ).then((res) => res.arrayBuffer())
 
         return new ImageResponse(
