@@ -1,6 +1,6 @@
 'use client'
 
-import Image from 'next/image'
+import Image from 'next/image';
 import ProgressLine from "@/app/components/ProgressLine";
 import CircleProgressBar from "@/app/components/CircleProgressBar";
 import FAQAccordion from "@/app/components/FAQAccordion";

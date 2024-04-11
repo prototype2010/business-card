@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 // @ts-nocheck
 
+import Image from 'next/image';
 import {ImageResponse} from "next/og";
 import imageAZ from '../../../../public/az.jpg'
 
@@ -27,7 +28,7 @@ export async function  GET( request: Request) {
                     <div tw="bg-gray-50 flex w-full">
                         <div tw="flex flex-col md:flex-row w-full py-12 px-4 md:items-center justify-between p-8">
                             <h2 tw="flex flex-col text-3xl sm:text-4xl font-bold tracking-tight text-gray-900 text-left">
-                                <img width={63} height={63} src={imageData as string}/>
+                                <Image width={63} height={63} src={imageData as string}/>
                                 <span>Ready to dive in?</span>
                                 <span tw="text-indigo-600">Start your free trial today.👋</span>
                             </h2>

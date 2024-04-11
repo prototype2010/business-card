@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   title: "Alexander Zakorko",
   description: "Senior frontend developer",
   openGraph: {
+    title: "Alexandr Zakorko",
+    description: "Frontend developer",
     images: [
       {
         url: 'https://prototype2010.github.io/business-card/api/og',
