@@ -5,25 +5,22 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://prototype2010.github.io/business-card/'),
+  // metadataBase: new URL('https://prototype2010.github.io/business-card/'),
   title: "Alexander Zakorko",
   description: "Senior frontend developer",
   openGraph: {
-    type: "website",
-    locale: "en_GB",
-    url: 'https://prototype2010.github.io/business-card/',
-    title: "Alexander Zakorko",
-    description: "Senior frontend developer",
-    siteName: 'Frontend',
     images: [
       {
-        url: `/az.jpg`,
+        // title: 'Alexander Zakorko',
+        // description: 'Senior Frontend Developer',
+        type: 'article',
+        url: 'https://prototype2010.github.io/business-card/api/og',
         width: 1200,
         height: 630,
-        alt: 'frontend developer',
-      },
-    ],
-  },
+        alt: 'Alt text'
+      }
+    ]
+  }
 };
 
 export default function RootLayout({
