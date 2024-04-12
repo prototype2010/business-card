@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     locale: "en_GB",
     url: siteMetadata.siteUrl,
     title: siteMetadata.title,
-    description: siteMetadata.description,
+    // description: siteMetadata.description,
     siteName: siteMetadata.title,
     images: [
       {
