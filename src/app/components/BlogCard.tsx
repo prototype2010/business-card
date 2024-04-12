@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from "next/link";
+import blog from '../../../public/blog.jpg';
 
 interface PropsBlogCard {
     name: string,
@@ -16,7 +17,7 @@ const BlogCard = (props: PropsBlogCard) => {
         <div>
             <article className={'h-[auto] w-[94%] bg-secondColor lg:mx-8 lg:mt-4 mx-2'}>
                 <div>
-                    <Image src="/blog.jpg" width="740" height="289" alt={'blog'} className={'mx-auto pt-10'}></Image>
+                    <Image src={blog} width="740" height="289" alt={'blog'} className={'mx-auto pt-10'}></Image>
                 </div>
                 <h2 className={'text-white  mt-10 lg:w-1/2 h-[55px] mx-auto table'}>
                     <Link className={'text-2xl font-bold table-cell align-middle text-center hover:text-mainColor uppercase'} href={'#'}>

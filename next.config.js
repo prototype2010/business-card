@@ -3,8 +3,8 @@ const nextConfig = {
     eslint: {
         ignoreDuringBuilds: true,
     },
-    basePath: '/business-card',
-    output: "export",
+    // basePath: '/business-card',
+    // output: "export",
     reactStrictMode: true,
 
 };

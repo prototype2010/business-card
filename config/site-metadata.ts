@@ -17,22 +17,6 @@ const siteMetadata: CoreConfig = {
     github: "https://github.com/prototype2010",
     linkedin: "https://ua.linkedin.com/in/alexander-zakorko-70858815b",
     locale: "en-GB",
-    // giscusConfig: {
-    //     repo: process.env.NEXT_PUBLIC_GISCUS_REPO ?? "",
-    //     repositoryId: process.env.NEXT_PUBLIC_GISCUS_REPOSITORY_ID ?? "",
-    //     category: process.env.NEXT_PUBLIC_GISCUS_CATEGORY ?? "",
-    //     categoryId: process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID ?? "",
-    //     mapping: "pathname",
-    //     reactions: "1",
-    //     metadata: "0",
-    //     theme: "light",
-    //     darkTheme: "transparent_dark",
-    //     themeURL: "",
-    //     lang: "en",
-    // },
-    // kbarConfig: {
-    //     searchDocumentsPath: "search.json",
-    // },
 }
 
 export default siteMetadata
