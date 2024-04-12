@@ -11,7 +11,7 @@ const siteMetadata: CoreConfig = {
     siteUrl: 'https://prototype2010.github.io/business-card',
     // siteRepo: 'https://prototype2010.github.io/business-card',
     siteLogo: "/static/images/logo.png",
-    image: "/static/images/avatar.png",
+    image: "../../../public/az.jpg",
     // socialBanner: "/static/images/twitter-card.png",
     email: "alex.zakorko2015@gmail.com",
     github: "https://github.com/prototype2010",
