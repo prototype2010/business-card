@@ -13,7 +13,7 @@ const siteMetadata: CoreConfig = {
     siteLogo: "/static/images/logo.png",
     image: "/static/images/avatar.png",
     // socialBanner: "/static/images/twitter-card.png",
-    email: "alexander.zakorko@1648factory.com",
+    email: "alex.zakorko2015@gmail.com",
     github: "https://github.com/prototype2010",
     linkedin: "https://ua.linkedin.com/in/alexander-zakorko-70858815b",
     locale: "en-GB",
