@@ -3,7 +3,7 @@ export interface CoreConfig {
     title: string
     author: string
     headerTitle: string
-    description: string
+    // description: string
     language: string
     // theme: "system" | "dark" | "light"
     siteUrl: string
