@@ -5,47 +5,47 @@ import siteMetadata from "../../config/site-metadata";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: {
-    default: siteMetadata.title,
-    template: `%s | ${siteMetadata.title}`,
-  },
-  metadataBase: new URL(
-      siteMetadata.siteUrl
-  ),
-  // description: siteMetadata.description,
-  keywords: [
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "Alexander Zakorko",
-    "Web Developer",
-    "Software Engineer",
-  ],
-  authors: [
-    {
-      name: "Alexander Zakorko",
-      url: "https://prototype2010.github.io/business-card/",
-    },
-  ],
-  creator: "Alexander Zakorko",
-  openGraph: {
-    type: "website",
-    locale: "en_GB",
-    url: siteMetadata.siteUrl,
-    title: siteMetadata.title,
-    // description: siteMetadata.description,
-    siteName: siteMetadata.title,
-    images: [
-      {
-        url: `/az.jpg`,
-        width: 1200,
-        height: 630,
-        alt: siteMetadata.title,
-      },
-    ],
-  },
-};
+// export const metadata: Metadata = {
+//   title: {
+//     default: siteMetadata.title,
+//     template: `%s | ${siteMetadata.title}`,
+//   },
+//   metadataBase: new URL(
+//       siteMetadata.siteUrl
+//   ),
+//   description: siteMetadata.description,
+//   keywords: [
+//     "Next.js",
+//     "React",
+//     "Tailwind CSS",
+//     "Alexander Zakorko",
+//     "Web Developer",
+//     "Software Engineer",
+//   ],
+//   authors: [
+//     {
+//       name: "Alexander Zakorko",
+//       url: "https://prototype2010.github.io/business-card/",
+//     },
+//   ],
+//   creator: "Alexander Zakorko",
+//   openGraph: {
+//     type: "website",
+//     locale: "en_GB",
+//     url: siteMetadata.siteUrl,
+//     title: siteMetadata.title,
+//     description: siteMetadata.description,
+//     siteName: siteMetadata.title,
+//     images: [
+//       {
+//         url: `/az.jpg`,
+//         width: 1200,
+//         height: 630,
+//         alt: siteMetadata.title,
+//       },
+//     ],
+//   },
+// };
 
 export default function RootLayout({
   children,
@@ -54,6 +54,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta property="og:image" content="https://prototype2010.github.io/business-card/az.jpg" />
+      <meta property="og:image:type" content="website" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
       <body className={inter.className}>{children}</body>
     </html>
   );
