@@ -55,7 +55,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <meta property="og:image" content="https://prototype2010.github.io/business-card/az.jpg" />
-      <meta property="og:image:type" content="website" />
+      <meta property="og:image:type" content="image.png" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <body className={inter.className}>{children}</body>
