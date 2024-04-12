@@ -29,22 +29,22 @@ export const metadata: Metadata = {
     },
   ],
   creator: "Alexander Zakorko",
-  openGraph: {
-    type: "website",
-    locale: "en_GB",
-    url: siteMetadata.siteUrl,
-    title: siteMetadata.title,
-    description: siteMetadata.description,
-    siteName: siteMetadata.title,
-    images: [
-      {
-        url: `../../public/az.jpg`,
-        width: 1200,
-        height: 630,
-        alt: siteMetadata.title,
-      },
-    ],
-  },
+  // openGraph: {
+  //   type: "website",
+  //   locale: "en_GB",
+  //   url: siteMetadata.siteUrl,
+  //   title: siteMetadata.title,
+  //   description: siteMetadata.description,
+  //   siteName: siteMetadata.title,
+  //   images: [
+  //     {
+  //       url: `../../public/az.jpg`,
+  //       width: 1200,
+  //       height: 630,
+  //       alt: siteMetadata.title,
+  //     },
+  //   ],
+  // },
 };
 
 export default function RootLayout({
