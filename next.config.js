@@ -4,7 +4,7 @@ const nextConfig = {
         ignoreDuringBuilds: true,
     },
     basePath: '/business-card',
-    // output: "export",
+    output: "export",
     reactStrictMode: true,
 
 };
