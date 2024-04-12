@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(
       siteMetadata.siteUrl
   ),
-  description: siteMetadata.description,
+  // description: siteMetadata.description,
   keywords: [
     "Next.js",
     "React",
