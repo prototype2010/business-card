@@ -17,10 +17,6 @@ const Home = () => {
 
   return (
       <>
-          {/*<meta property="og:image" content="<generated>" />*/}
-          {/*<meta property="og:image:type" content="<generated>" />*/}
-          {/*<meta property="og:image:width" content="<generated>" />*/}
-          {/*<meta property="og:image:height" content="<generated>" />*/}
           <Header setSideBarShown={setSideBarShown}/>
           <HomeNavMenu/>
           <div className={'lg:block container mx-auto max-w-screen-2xl'}>
