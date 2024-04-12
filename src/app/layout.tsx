@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: siteMetadata.title,
     images: [
       {
-        url: `/az.jpg`,
+        url: `../../public/az.jpg`,
         width: 1200,
         height: 630,
         alt: siteMetadata.title,
