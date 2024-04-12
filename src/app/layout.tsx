@@ -5,7 +5,6 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  // metadataBase: new URL('https://prototype2010.github.io/business-card/'),
   title: "Alexander Zakorko",
   description: "Senior frontend developer",
   openGraph: {
@@ -23,9 +22,16 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'Alt text'
-      }
+      },
     ]
-  }
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: 'twitter',
+  //   description: 'twitter',
+  //   images: [`/az.jpg`],
+  //   creator: "@IZ",
+  // },
 };
 
 export default function RootLayout({
