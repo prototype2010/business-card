@@ -18,6 +18,15 @@ import references1 from '../../../public/references1.jpg';
 import references2 from '../../../public/references2.jpg';
 import references3 from '../../../public/references3.jpg';
 import ContactForm from "@/app/components/ContactForm";
+import Portfolio from "@/app/components/Portfolio";
+import portfolio1 from '../../../public/portfolio1.jpg';
+import portfolio2 from '../../../public/portfolio2.jpg';
+import portfolio3 from '../../../public/portfolio3.jpg';
+import portfolio4 from '../../../public/portfolio4.jpg';
+import portfolio5 from '../../../public/portfolio5.jpg';
+import portfolio6 from '../../../public/portfolio6.jpg';
+import portfolio7 from '../../../public/portfolio7.jpg';
+import portfolio8 from '../../../public/portfolio8.jpg';
 
 export interface IFaqs {
     id: number,
@@ -96,7 +105,7 @@ const HomeContent = () => {
                     </div>
                     <div className={'flex mt-2 text-white space-x-2'}>
                         <span className={'font-bold w-28 font-aldrich'}>E-MAIL</span>
-                        <p className={'w-1/2 break-words font-aldrich'}>robertsmith@company.com</p>
+                        <p className={'w-1/2 break-words font-aldrich'}>alex.zakorko2015@gmail.com</p>
                     </div>
                     <div className={'flex mt-2 text-white space-x-2'}>
                         <span className={'font-bold w-28 font-aldrich'}>PHONE</span>
@@ -158,11 +167,6 @@ const HomeContent = () => {
                 <hr className={'border-1 border-gray-800 w-5/6 mx-auto mt-4'}/>
                 <div className={'lg:flex-initial mt-6 px-6 lg:pl-16'}>
                     <h3 className={'text-gray-500 font-bold text-xl font-aldrich text-center'}>Professional Skills</h3>
-                    {/*<ProgressLine percentage={98} name={'WordPress'}/>*/}
-                    {/*<ProgressLine percentage={95} name={'JavaScript'}/>*/}
-                    {/*<ProgressLine percentage={97} name={'React'}/>*/}
-                    {/*<ProgressLine percentage={78} name={'Redux'}/>*/}
-                    {/*<ProgressLine percentage={68} name={'Ruby'}/>*/}
                     <div className={'text-white h-auto space-y-3 my-4'}>
                         <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>CSS</button>
                         <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>JavaSript</button>
@@ -175,23 +179,6 @@ const HomeContent = () => {
                         <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Tailwind</button>
                     </div>
                 </div>
-                {/*<div className={'lg:flex-initial md:w-1/2 mt-6 pl-3'}>*/}
-                {/*    <h3 className={'text-gray-500 font-bold text-xl font-aldrich'}>Professional Skills</h3>*/}
-                {/*    <div className={'flex md:flex-row lg:justify-center py-8 flex-col items-center'}>*/}
-                {/*        <CircleProgressBar*/}
-                {/*            progress={'95'}*/}
-                {/*            svgSize={'100'}*/}
-                {/*            name={'HTML & CSS'}/>*/}
-                {/*        <CircleProgressBar*/}
-                {/*            progress={'88'}*/}
-                {/*            svgSize={'100'}*/}
-                {/*            name={'PHP & MySQL'}/>*/}
-                {/*        <CircleProgressBar*/}
-                {/*            progress={'90'}*/}
-                {/*            svgSize={'100'}*/}
-                {/*            name={'Photoshop'}/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
                 <hr className={'border-1 border-gray-800 w-5/6 mx-auto mt-4'}/>
                 <div className={'lg:flex-initial md:w-1/2 mt-6 pl-6 lg:pl-16 '}>
                     <h3 className={'text-gray-500 font-bold text-xl font-aldrich'}>Styled List</h3>
@@ -369,15 +356,15 @@ const HomeContent = () => {
             <section className={'bg-secondColor lg:mt-4 lg:ml-8 pb-10 font-aldrich'}>
                 <h2 className={'text-white font-bold text-2xl pt-8 pl-10'}>PORTFOLIO</h2>
                 <div className={'mt-4'}>
-                    <div className={'md:ml-10 ml-4'}>
-                        <button className={'text-gray-500 ml-6 text-xl font-bold hover:text-white md:mr-8'}>All</button>
-                        <button className={'text-gray-500 ml-6 text-xl font-bold hover:text-white md:mr-8'}>Design</button>
-                        <button className={'text-gray-500 ml-6 text-xl font-bold hover:text-white md:mr-8'}>Team</button>
-                        <button className={'text-gray-500 ml-6 text-xl font-bold hover:text-white md:mr-8'}>Work</button>
-                    </div>
-                    <div className={'flex flex-wrap mx-8 mt-4'}>
-                        {/*<Image className={'w-1/2'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/06/certy-team-380x253.jpg" alt=""/>*/}
-                        {/*<Image className={'w-1/2'} src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/06/certy-task-380x253.jpg" alt=""/>*/}
+                    <div className={'flex flex-wrap mx-8'}>
+                        <Portfolio img={portfolio1} href={'https://play.tailwindcss.com/XifyCwLkFV'} isShown={true}/>
+                        <Portfolio img={portfolio2} href={'https://play.tailwindcss.com/XifyCwLkFV'} isShown={false}/>
+                        <Portfolio img={portfolio3} href={'https://play.tailwindcss.com/XifyCwLkFV'} isShown={false}/>
+                        <Portfolio img={portfolio4} href={'https://play.tailwindcss.com/XifyCwLkFV'} isShown={false}/>
+                        <Portfolio img={portfolio5} href={'https://play.tailwindcss.com/XifyCwLkFV'} isShown={false}/>
+                        <Portfolio img={portfolio6} href={'https://play.tailwindcss.com/XifyCwLkFV'} isShown={false}/>
+                        <Portfolio img={portfolio7} href={'https://play.tailwindcss.com/XifyCwLkFV'} isShown={true}/>
+                        <Portfolio img={portfolio8} href={'https://play.tailwindcss.com/XifyCwLkFV'} isShown={true}/>
                     </div>
                 </div>
             </section>
@@ -418,15 +405,15 @@ const HomeContent = () => {
                     )
                 })}
             </section>
-            <section className={'bg-secondColor lg:mt-4 lg:ml-8 pb-10 font-aldrich'}  id={'blog'}>
-                <h2 className={'text-white font-bold text-2xl pt-8 pl-10'}>BLOG</h2>
-                <div className={'bg-secondColor text-white ml-10 pr-6'}>
-                    <p className={'mt-10'}>For those who are interested in latest trends in graphic and industrial design may be found useful and intersting to read my Blog. I am writing daily posts which includes freebies and giveaways as well. I would be glad to any comment and will appreciate your questions and feedback.</p>
-                </div>
-                <div className={'m-auto flex justify-center items-center mt-8 w-[200px] h-[40px] bg-mainColor rounded-full font-bold hover:opacity-80 text-white'}>
-                    <Link target={'_blank'} href="/blog">Check out my Blog</Link>
-                </div>
-            </section>
+            {/*<section className={'bg-secondColor lg:mt-4 lg:ml-8 pb-10 font-aldrich'}  id={'blog'}>*/}
+            {/*    <h2 className={'text-white font-bold text-2xl pt-8 pl-10'}>BLOG</h2>*/}
+            {/*    <div className={'bg-secondColor text-white ml-10 pr-6'}>*/}
+            {/*        <p className={'mt-10'}>For those who are interested in latest trends in graphic and industrial design may be found useful and intersting to read my Blog. I am writing daily posts which includes freebies and giveaways as well. I would be glad to any comment and will appreciate your questions and feedback.</p>*/}
+            {/*    </div>*/}
+            {/*    <div className={'m-auto flex justify-center items-center mt-8 w-[200px] h-[40px] bg-mainColor rounded-full font-bold hover:opacity-80 text-white'}>*/}
+            {/*        <Link target={'_blank'} href="/blog">Check out my Blog</Link>*/}
+            {/*    </div>*/}
+            {/*</section>*/}
             <section className={'bg-secondColor lg:mt-4 lg:ml-8 font-aldrich'}  id={'contacts'}>
                 <h2 className={'text-white font-bold text-2xl pt-8 pl-10'}>CONTACT ME</h2>
                 <div className={'md:pl-20 pl-6'}>
