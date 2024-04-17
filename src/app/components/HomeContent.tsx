@@ -88,6 +88,17 @@ const HomeContent = () => {
                     Well-versed in numerous programming languages including JavaScript, SQL, and C.
                     Sting background in project management and customer relations.</p>
             </section>
+            <section className={'bg-secondColor lg:ml-8 mt-4 pb-6'} id={'about'}>
+                <h1 className={'text-white font-bold text-2xl lg:ml-16 ml-6 pt-8 font-aldrich'}>Summary</h1>
+                <ul className={'ml-16 mt-6 space-y-2 text-white font-aldrich list-inside'}>
+                    <li>8+ years of experience in building scalable web applications</li>
+                    <li>Experience with huge codebases and mono repositories</li>
+                    <li>Experience both products and startups</li>
+                    <li>Development/lead experience in small and huge cross-functional teams</li>
+                    <li>Extensive knowledge in automated unit,integration,2e2 testing</li>
+                    <li>Frontend focused developer with 2+ years backend experience</li>
+                </ul>
+            </section>
             <section className={'bg-secondColor lg:mt-4 lg:ml-8 md:flex flex-wrap pb-10'} id={'skills'}>
                 <div className={'lg:flex-initial md:w-1/2 lg:mt-8 pl-6 lg:pl-16'}>
                     <h3 className={'text-gray-500 font-bold text-xl lg:pt-0 pt-10 font-aldrich'}>personal information</h3>
