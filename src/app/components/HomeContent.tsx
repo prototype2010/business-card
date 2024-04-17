@@ -88,9 +88,9 @@ const HomeContent = () => {
                     Well-versed in numerous programming languages including JavaScript, SQL, and C.
                     Sting background in project management and customer relations.</p>
             </section>
-            <section className={'bg-secondColor lg:ml-8 mt-4 pb-6'} id={'about'}>
-                <h1 className={'text-white font-bold text-2xl lg:ml-16 ml-6 pt-8 font-aldrich'}>Summary</h1>
-                <ul className={'ml-16 mt-6 space-y-2 text-white font-aldrich list-inside'}>
+            <section className={'bg-secondColor lg:ml-8 mt-4 pb-6'} id={'skills'}>
+                <h2 className={'text-white font-bold text-2xl lg:ml-16 ml-6 pt-8 font-aldrich'}>Summary</h2>
+                <ul className={'ml-16 mt-6 space-y-2 text-white font-aldrich list-inside list-disc text-lg'}>
                     <li>8+ years of experience in building scalable web applications</li>
                     <li>Experience with huge codebases and mono repositories</li>
                     <li>Experience both products and startups</li>
@@ -98,8 +98,46 @@ const HomeContent = () => {
                     <li>Extensive knowledge in automated unit,integration,2e2 testing</li>
                     <li>Frontend focused developer with 2+ years backend experience</li>
                 </ul>
+                <hr className={'border-1 border-gray-800 w-5/6 mx-auto mt-8'}/>
+                <div className={'lg:flex-initial'}>
+                    <h2 className={'text-white font-bold text-2xl lg:ml-16 ml-6 pt-8 font-aldrich'}>Skills summary</h2>
+                    <div className={'text-white h-auto space-y-3 ml-16 pr-4'}>
+                    <h3 className={'text-lg text-gray-500 font-aldrich mt-4'}>Frontend</h3>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>React</button>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>NextJS</button>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>JavaScript</button>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Redux</button>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>TypeScript</button>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Toolkit</button>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Thunk</button>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Saga</button>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Testing-library/react</button>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Jest</button>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Playwright</button>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Google Maps</button>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Formik</button>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Monorepository</button>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>AB testing</button>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Web Vitals</button>
+                </div>
+                    <div className={'text-white h-auto space-y-3 ml-16 pr-4'}>
+                        <h3 className={'text-lg text-gray-500 font-aldrich mt-4'}>Backend</h3>
+                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Node.JS</button>
+                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Nest.JS</button>
+                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Ruby</button>
+                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>RSpec</button>
+                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Rails</button>
+                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Postgres</button>
+                    </div>
+                </div>
+                <div className={'text-white h-auto space-y-3 ml-16 pr-4 pb-4'}>
+                    <h3 className={'text-lg text-gray-500 font-aldrich mt-4'}>Styles</h3>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>SASS</button>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>CSS Modules</button>
+                    <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Material UI</button>
+                </div>
             </section>
-            <section className={'bg-secondColor lg:mt-4 lg:ml-8 md:flex flex-wrap pb-10'} id={'skills'}>
+            <section className={'bg-secondColor lg:mt-4 lg:ml-8 md:flex flex-wrap pb-10'}>
                 <div className={'lg:flex-initial md:w-1/2 lg:mt-8 pl-6 lg:pl-16'}>
                     <h3 className={'text-gray-500 font-bold text-xl lg:pt-0 pt-10 font-aldrich'}>personal information</h3>
                     <div className={'flex mt-8 text-white space-x-2'}>
@@ -107,12 +145,8 @@ const HomeContent = () => {
                         <p className={'w-1/2 break-words font-aldrich'}>Alexander Zakorko</p>
                     </div>
                     <div className={'flex mt-2 text-white space-x-2'}>
-                        <span className={'font-bold w-28 font-aldrich'}>D.O.B.</span>
-                        <p className={'w-1/2 font-aldrich'}>05 June 1988</p>
-                    </div>
-                    <div className={'flex mt-2 text-white space-x-2'}>
                         <span className={'font-bold w-28 font-aldrich'}>ADDRESS</span>
-                        <p className={'w-1/2 break-words font-aldrich'}>24058, Sumy, Ukraine, Liutte 27, BE</p>
+                        <p className={'w-1/2 break-words font-aldrich'}>24058, Sumy, Ukraine</p>
                     </div>
                     <div className={'flex mt-2 text-white space-x-2'}>
                         <span className={'font-bold w-28 font-aldrich'}>E-MAIL</span>
@@ -124,7 +158,7 @@ const HomeContent = () => {
                     </div>
                     <div className={'flex mt-2 text-white space-x-2'}>
                         <span className={'font-bold w-28 font-aldrich'}>FREELANCE</span>
-                        <p className={'w-1/2 break-words font-aldrich'}>till March 25, 2024</p>
+                        <p className={'w-1/2 break-words font-aldrich'}>September 2021</p>
                     </div>
                 </div>
                 <div className={'flex-initial w-1/2 pt-10 pl-6 lg:pt-8'}>
@@ -159,7 +193,7 @@ const HomeContent = () => {
                             <span className={'text-gray-500 ml-6 font-aldrich'}>native</span>
                         </div>
                     </div>
-                    <div className={'text-white mt-4 h-32'}>
+                    <div className={'text-white mt-4 '}>
                         <strong className={'font-bold w-28 font-aldrich'}>English</strong>
                         <div className={'flex'}>
                             <div className={'flex mt-2 space-x-2 items-center'}>
@@ -171,26 +205,11 @@ const HomeContent = () => {
                                 <div className={'h-4 w-4 bg-secondColor border-2 border-mainColor rounded-full '}></div>
                                 <div className={'h-4 w-4 bg-secondColor border-2 border-mainColor rounded-full '}></div>
                             </div>
-                            <span className={'text-gray-500 ml-6 font-aldrich'}>fluent</span>
+                            <span className={'text-gray-500 ml-6 font-aldrich'}>upper intermediate</span>
                         </div>
                     </div>
                 </div>
-                <hr className={'border-1 border-gray-800 w-5/6 mx-auto mt-4'}/>
-                <div className={'lg:flex-initial mt-6 px-6 lg:pl-16'}>
-                    <h3 className={'text-gray-500 font-bold text-xl font-aldrich text-center'}>Professional Skills</h3>
-                    <div className={'text-white h-auto space-y-3 my-4'}>
-                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>CSS</button>
-                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>JavaSript</button>
-                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>React</button>
-                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Redux</button>
-                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>TypeScript</button>
-                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>NextJS</button>
-                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>MaterialUI</button>
-                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Ruby</button>
-                        <button className={'cursor-auto h-auto w-auto border border-mainColor px-3.5 ml-2'}>Tailwind</button>
-                    </div>
-                </div>
-                <hr className={'border-1 border-gray-800 w-5/6 mx-auto mt-4'}/>
+                <hr className={'border-1 border-gray-800 w-5/6 mx-auto mt-8'}/>
                 <div className={'lg:flex-initial md:w-1/2 mt-6 pl-6 lg:pl-16 '}>
                     <h3 className={'text-gray-500 font-bold text-xl font-aldrich'}>Styled List</h3>
                     <ul className={'font-aldrich pt-4'}>
@@ -216,7 +235,7 @@ const HomeContent = () => {
                 <div>
                     <div className={'flex md:pl-6 pl-2 pt-8 lg:pl-12'}>
                           <span className={'flex-initial w-20 xs:w-36 md:w-48 h-8 bg-mainColor text-center leading-8'}>
-                              <span className={'text-white xxs:text-xs md:text-lg'}>2021</span>
+                              <span className={'text-white xxs:text-xs md:text-lg'}>2021-2024</span>
                           </span>
                         <div className={'w-0 h-0 border-t-[16px] border-t-transparent border-l-[14px] border-l-mainColor border-b-[16px] border-b-transparent'}></div>
                         <div className={'mt-4 ml-3 xxs:ml-1'}>
@@ -224,10 +243,22 @@ const HomeContent = () => {
                             <div className={'h-[150%] bg-mainColor w-[2px] ml-[1px]'}></div>
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
-                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Senior Frontend Developer</h3>
-                            <Image className={'mt-4 mb-2 w-36 h-36'} src={factory} alt="1648factory"/>
-                            <span className={'text-gray-500 font-armata'}>1648 Factory-IT Services</span>
-                            <p className={'text-white pt-4 pr-2 xxs:text-sm lg:text-base'}>React,Redux,Redux-saga,TypeScript,Vanila JS, Material Ui,Unit tests, Integration tests,</p>
+                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Freelance Software Engineer</h3>
+                            {/*<Image className={'mt-4 mb-2 w-36 h-36'} src={factory} alt="1648factory"/>*/}
+                            {/*<span className={'text-gray-500 font-armata'}>1648 Factory-IT Services</span>*/}
+                            <div>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Technologies</h3>
+                                <p className={'text-white mt-2 ml-2'}><span className={'font-bold'}>Frontend:</span> React, NextJS, JavaScript, TypeScript, Redux-toolkit, MaterialUI(4,5), CSS Modules, testing-library/react, jest, Formik, Google maps</p>
+                            </div>
+                            <div>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Key responsibilities</h3>
+                                <ul className={'text-white mt-2 ml-2 list-disc pl-3'}>
+                                    <li>Develop and support existing application on React.js/TypeScript/JavaScript</li>
+                                    <li>Improve existing architecture: cover by tests, refactor, analyze</li>
+                                    <li>Conduct demos</li>
+                                    <li>Increase test coverage</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div className={'flex md:pl-6 pl-2 pt-8 lg:pl-12'}>
@@ -240,10 +271,22 @@ const HomeContent = () => {
                             <div className={'h-[150%] bg-mainColor w-[2px] ml-[1px]'}></div>
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
-                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Frontend engineer</h3>
+                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Frontend/Backend Developer</h3>
                             <Image className={'mt-4 mb-2 w-36 h-36'} src={brocoders} alt="brocoders"/>
-                            <span className={'text-gray-500 font-armata'}>Brocoders-Software Development Company</span>
-                            <p className={'text-white pt-4 pr-2 xxs:text-sm lg:text-base'}>React,Redux,Redux-saga,TypeScript,Vanila JS, Material Ui,Unit tests, Integration tests,</p>
+                            <span className={'text-white font-armata font-bold'}>Brocoders-Software Development Company</span>
+                            <div>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Technologies</h3>
+                                <p className={'text-white mt-2 ml-2'}><span className={'font-bold'}>Frontend:</span> React, JavaScript, TypeScript, Redux-toolkit, RxJS,  MaterialUI, Webpack, Reselect, material-table, Redux-saga, testing-library/react, jest, jest-puppeteer</p>
+                                <p className={'text-white mt-2 ml-2'}><span className={'font-bold'}>Backend:</span> NodeJS, NestJS, AdonisJS, Typeorm, Sequelize, Postgres, Redis, Ruby, RSpec, Rails(1year experience on backend)</p>
+                            </div>
+                            <div>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Key responsibilities</h3>
+                                <ul className={'text-white mt-2 ml-2 list-disc pl-3'}>
+                                    <li>Ideate and implement application architecture alternatives</li>
+                                    <li>Research and implement the congruent test environment(e2e/unit/integration)</li>
+                                    <li>Develop and support applications on React.js, Node.js, Nest.js, Ruby on rails</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div className={'flex md:pl-6 pl-2 pt-8 lg:pl-12'}>
@@ -253,13 +296,25 @@ const HomeContent = () => {
                         <div className={'w-0 h-0 border-t-[16px] border-t-transparent border-l-[14px] border-l-mainColor border-b-[16px] border-b-transparent'}></div>
                         <div className={'mt-4 ml-3 xxs:ml-1'}>
                             <div className={'w-1 h-1 bg-white rounded-full'}></div>
-                            <div className={'xs:h-[114.5%] md:h-[123%] 912:h-[125%] 1261:h-[117%] lg:h-[115%] xl:h-[118%] bg-mainColor w-[2px] ml-[1px] 2xs:h-[120%] h-[108%]'}></div>
+                            <div className={'xs:h-[114.5%] md:h-[123%] 912:h-[125%] 1261:h-[110%] lg:h-[115%] xl:h-[118%] bg-mainColor w-[2px] ml-[1px] 2xs:h-[120%] h-[108%]'}></div>
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
                             <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Javascript developer</h3>
                             <Image className={'mt-4 mb-2 w-36 h-36'} src={softIndustry} alt="softIndustry"/>
-                            <span className={'text-gray-500 font-armata'}>Soft Industry Alliance Ltd.</span>
-                            <p className={'text-white pt-4 pr-2 xxs:text-sm lg:text-base'}>React,Redux,Vanilla JS,Node.js</p>
+                            <span className={'text-white font-bold font-armata'}>Soft Industry Alliance Ltd.</span>
+                            <div>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Technologies</h3>
+                                <p className={'text-white mt-2 ml-2'}>React, Redux, Redux-saga, vanilla javascript, three.js, styled-components, webpack, canvas</p>
+                            </div>
+                            <div>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Key responsibilities</h3>
+                                <ul className={'text-white mt-2 ml-2 list-disc pl-3'}>
+                                    <li>Develop enterprise system</li>
+                                    <li>Support of several applications on vanilla javascript, eact</li>
+                                    <li>Conduct code review and mentorship</li>
+                                    <li>Conduct demos</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div className={'flex md:pl-6 pl-1 pt-8 pb-12 xxs:pl-2 lg:pl-12'}>
@@ -273,35 +328,30 @@ const HomeContent = () => {
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
                             <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Test Automation Engineer</h3>
                             <Image className={'mt-4 mb-2 w-36 h-36'} src={netcracer} alt="netcracer"/>
-                            <span className={'text-gray-500 font-armata'}>Netcraker technology</span>
-                            <p className={'text-white pt-4 xxs:text-sm lg:text-base'}>Test automation using Selenium,Java,JavaScript</p>
+                            <span className={'text-white font-bold font-armata'}>Netcraker technology</span>
+                            <div>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Technologies</h3>
+                                <p className={'text-white mt-2 ml-2'}>Java, JavaScript, Selenium</p>
+                            </div>
+                            <div>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Key responsibilities</h3>
+                                <ul className={'text-white mt-2 ml-2 list-disc pl-3'}>
+                                    <li>Create autotests and test utils using Java</li>
+                                    <li>Support test framework</li>
+                                    <li>Stub/script test framework using javascript</li>
+                                    <li>Monitor test coverage</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <hr className={'border-1 border-gray-800 w-5/6 mx-auto mt-4'}/>
                     <div className={'pb-20'}>
                         <h2 className={'text-white font-bold text-2xl pt-8 pl-10'}>EDUCATION</h2>
-                        {/*<div className={'flex md:pl-6 pl-2 pt-8 lg:pl-12'}>*/}
-                        {/*      <span className={'flex-initial md:w-1/3 xs:w-36 md:w-48 w-28 h-8 bg-mainColor text-center leading-8 '}>*/}
-                        {/*          <span className={'text-white text-xs md:text-lg'}>2006-2008</span>*/}
-                        {/*      </span>*/}
-                        {/*    <div className={'w-0 h-0 border-t-[16px] border-t-transparent border-l-[14px] border-l-mainColor border-b-[16px] border-b-transparent'}></div>*/}
-                        {/*    <div className={'mt-4 ml-3'}>*/}
-                        {/*        <div className={'w-1 h-1 bg-white rounded-full'}></div>*/}
-                        {/*        <div className={'md:h-[250%] lg:h-[230%] 414:h-[200%] 430:h-[253%] 412:h-[200%] h-[170%] xs:h-[200%] bg-mainColor w-[2px] ml-[1px] 2xs:h-[255%]'}></div>*/}
-                        {/*    </div>*/}
-                        {/*    <div className={'pl-6 flex-initial w-3/4'}>*/}
-                        {/*        <h3 className={'lg:text-lg text-white font-bold text-sm'}>Master of Information Technology</h3>*/}
-                        {/*        <span className={'text-gray-500 xxs:text-sm font-armata'}>MIT&T</span>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
                         <div className={'flex md:pl-6 pt-8 pl-2 lg:pl-12'}>
                                       <span className={'flex-initial md:w-48 md:w-1/3 xs:w-36 w-28 h-8 bg-mainColor text-center leading-8 '}>
                                           <span className={'text-white text-xs md:text-lg'}>2007-2012</span>
                                       </span>
                             <div className={'w-0 h-0 border-t-[16px] border-t-transparent border-l-[14px] border-l-mainColor border-b-[16px] border-b-transparent'}></div>
-                            {/*<div className={'mt-4 ml-3'}>*/}
-                            {/*    <div className={'w-1 h-1 bg-white rounded-full'}></div>*/}
-                            {/*</div>*/}
                             <div className={'pl-6 flex-initial w-3/4'}>
                                 <h3 className={'lg:text-lg text-white font-bold text-sm'}>Master of Economics,Finance</h3>
                                 <Image className={'w-36 h-36 my-4'} src={ssu} alt="university"/>

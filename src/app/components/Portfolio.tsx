@@ -19,7 +19,7 @@ const Portfolio = (props: PortfolioProps) => {
                     </figure>
                     <div className={'opacity-0 ml-6 pt-6 flex flex-col justify-center items-center absolute top-0 left-0 mt-8  group-hover:opacity-100 duration-500'}>
                         <h2 className={'text-white text-2xl font-bold uppercase font-aldrich '}>Certy work</h2>
-                        <p className={'text-gray-400 text-center mb-2'}>Just some text fdgsdgsg gsgsgdgsdg </p>
+                        <p className={'text-white text-center mb-2'}>Just some text fdgsdgsg gsgsgdgsdg </p>
                         { isShown &&
                             <Link target="_blank" href={href}>
                                 <span className={'text-white p-2 h-24 bg-mainColor rounded-full hover:opacity-60'}>View more</span>
