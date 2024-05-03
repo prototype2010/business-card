@@ -82,7 +82,7 @@ const HomeContent = () => {
         <>
             <section className={'bg-secondColor lg:ml-8 lg:h-[427px]'} id={'about'}>
                 <h1 className={'text-white font-bold text-2xl lg:ml-16 ml-6 pt-8 font-aldrich'}>ABOUT ME</h1>
-                {/*<p className={'text-white font-bold lg:mx-16 mt-8 text-xl lg:px-13 mx-6 font-aldrich'}>Hello, I’m Alexander Zakorko</p>*/}
+                {/*<p className={'text-white font-bold lЛg:mx-16 mt-8 text-xl lg:px-13 mx-6 font-aldrich'}>Hello, I’m Alexander Zakorko</p>*/}
                 <p className={'text-white font-thin lg:mx-16 mt-8 text-xl lg:px-13 mx-6 font-aldrich'}>
                     Hello! I’m Alexander Zakorko. Proactive Senior Full-Stack developer specializing
                     in front end development.
