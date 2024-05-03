@@ -13,7 +13,7 @@ import brocoders from '../../../public/brocoders.jpg';
 import softIndustry from '../../../public/softIndustry.jpg';
 import netcracer from '../../../public/netCracker.jpg';
 import ssu from '../../../public/ssu.jpg';
-import factory from '../../../public/1648factory.png';
+// import factory from '../../../public/1648factory.png';
 import references1 from '../../../public/references1.jpg';
 import references2 from '../../../public/references2.jpg';
 import references3 from '../../../public/references3.jpg';
@@ -82,20 +82,26 @@ const HomeContent = () => {
         <>
             <section className={'bg-secondColor lg:ml-8 lg:h-[427px]'} id={'about'}>
                 <h1 className={'text-white font-bold text-2xl lg:ml-16 ml-6 pt-8 font-aldrich'}>ABOUT ME</h1>
-                <p className={'text-white font-bold lg:mx-16 mt-8 text-xl lg:px-13 mx-6 font-aldrich'}>Hello, I’m Alexander Zakorko</p>
-                <p className={'text-white font-thin lg:mx-16 mt-8 text-xl lg:px-13 mx-6 font-aldrich'}>Hello! I’m Alexander Zakorko. Senior Web Developer specializing in front end development.
+                {/*<p className={'text-white font-bold lg:mx-16 mt-8 text-xl lg:px-13 mx-6 font-aldrich'}>Hello, I’m Alexander Zakorko</p>*/}
+                <p className={'text-white font-thin lg:mx-16 mt-8 text-xl lg:px-13 mx-6 font-aldrich'}>
+                    Hello! I’m Alexander Zakorko. Proactive Senior Full-Stack developer specializing
+                    in front end development.
                     Experienced with all stages of the development cycle for dynamic web projects.
-                    Well-versed in numerous programming languages including JavaScript, SQL, and C.
-                    Sting background in project management and customer relations.</p>
+                    Well-versed in numerous programming languages including JavaScript, Typescript, Ruby.
+                    Whether you're lacking the latest technologies or considering a transition to something newer
+                    - I have significant experience in project migration. I enjoy both mentoring and being mentored,
+                    believing there's always something valuable to learn from others. I thrive in smaller teams,
+                    finding a satisfying balance between coding and communication.
+                </p>
             </section>
             <section className={'bg-secondColor lg:ml-8 mt-4 pb-6'} id={'skills'}>
                 <h2 className={'text-white font-bold text-2xl lg:ml-16 ml-6 pt-8 font-aldrich'}>Summary</h2>
                 <ul className={'ml-16 mt-6 space-y-2 text-white font-aldrich list-inside list-disc text-lg'}>
                     <li>8+ years of experience in building scalable web applications</li>
-                    <li>Experience with huge codebases and mono repositories</li>
+                    <li>Extensive knowledge in automated unit,integration,2e2 testing</li>
+                    <li>Experience with complex codebases and mono repositories</li>
                     <li>Experience both products and startups</li>
                     <li>Development/lead experience in small and huge cross-functional teams</li>
-                    <li>Extensive knowledge in automated unit,integration,2e2 testing</li>
                     <li>Frontend focused developer with 2+ years backend experience</li>
                 </ul>
                 <hr className={'border-1 border-gray-800 w-5/6 mx-auto mt-8'}/>
@@ -156,10 +162,10 @@ const HomeContent = () => {
                         <span className={'font-bold w-28 font-aldrich'}>PHONE</span>
                         <p className={'w-1/2 break-words font-aldrich'}>+380662542615</p>
                     </div>
-                    <div className={'flex mt-2 text-white space-x-2'}>
-                        <span className={'font-bold w-28 font-aldrich'}>FREELANCE</span>
-                        <p className={'w-1/2 break-words font-aldrich'}>September 2021</p>
-                    </div>
+                    {/*<div className={'flex mt-2 text-white space-x-2'}>*/}
+                    {/*    <span className={'font-bold w-28 font-aldrich'}>FREELANCE</span>*/}
+                    {/*    <p className={'w-1/2 break-words font-aldrich'}>September 2021</p>*/}
+                    {/*</div>*/}
                 </div>
                 <div className={'flex-initial w-1/2 pt-10 pl-6 lg:pt-8'}>
                     <h3 className={'text-gray-500 font-bold text-xl font-aldrich'}>languages</h3>
@@ -173,7 +179,8 @@ const HomeContent = () => {
                                 <div className={'h-4 w-4 bg-mainColor rounded-full'}></div>
                                 <div className={'h-4 w-4 bg-mainColor rounded-full'}></div>
                                 <div className={'h-4 w-4 bg-mainColor rounded-full'}></div>
-                                <div className={'h-4 w-4 bg-secondColor border-2 border-mainColor rounded-full'}></div>
+                                <div className={'h-4 w-4 bg-mainColor rounded-full'}></div>
+                                {/*<div className={'h-4 w-4 bg-secondColor border-2 border-mainColor rounded-full'}></div>*/}
                             </div>
                             <span className={'text-gray-500 ml-6 font-aldrich'}>native</span>
                         </div>
@@ -188,7 +195,8 @@ const HomeContent = () => {
                                 <div className={'h-4 w-4 bg-mainColor rounded-full'}></div>
                                 <div className={'h-4 w-4 bg-mainColor rounded-full'}></div>
                                 <div className={'h-4 w-4 bg-mainColor rounded-full'}></div>
-                                <div className={'h-4 w-4 bg-secondColor border-2 border-mainColor rounded-full '}></div>
+                                <div className={'h-4 w-4 bg-mainColor rounded-full'}></div>
+                                {/*<div className={'h-4 w-4 bg-secondColor border-2 border-mainColor rounded-full '}></div>*/}
                             </div>
                             <span className={'text-gray-500 ml-6 font-aldrich'}>native</span>
                         </div>
@@ -211,13 +219,14 @@ const HomeContent = () => {
                 </div>
                 <hr className={'border-1 border-gray-800 w-5/6 mx-auto mt-8'}/>
                 <div className={'lg:flex-initial md:w-1/2 mt-6 pl-6 lg:pl-16 '}>
-                    <h3 className={'text-gray-500 font-bold text-xl font-aldrich'}>Styled List</h3>
+                    <h3 className={'text-gray-500 font-bold text-xl font-aldrich'}>Features</h3>
                     <ul className={'font-aldrich pt-4'}>
                         <StyledList name={'Customer oriented'}/>
-                        <StyledList name={'Handling Multi Tasks'}/>
+                        <StyledList name={'Build relationship'}/>
+                        <StyledList name={'Work fast and clean'}/>
                         <StyledList name={'Creative Thinking'}/>
                         <StyledList name={'Self Motivated'}/>
-                        <StyledList name={'Managerial Skills'}/>
+                        <StyledList name={'Great at remote work with various time zones'}/>
                     </ul>
                 </div>
                 <div className={'lg:flex-initial md:w-1/2 mt-6 pl-6 pb-10 font-aldrich'}>
@@ -243,12 +252,17 @@ const HomeContent = () => {
                             <div className={'h-[150%] bg-mainColor w-[2px] ml-[1px]'}></div>
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
-                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Freelance Software Engineer</h3>
+                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Senior Frontend Developer, Freelancer</h3>
                             {/*<Image className={'mt-4 mb-2 w-36 h-36'} src={factory} alt="1648factory"/>*/}
                             {/*<span className={'text-gray-500 font-armata'}>1648 Factory-IT Services</span>*/}
                             <div>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Projects:</h3>
+                                <p className={'text-white mt-2 ml-2'}>Online casino, Ad aggregator, Project management tool</p>
+                            </div>
+                            <div>
                                 <h3 className={'text-gray-500 font-armata mt-2'}>Technologies</h3>
-                                <p className={'text-white mt-2 ml-2'}><span className={'font-bold'}>Frontend:</span> React, NextJS, JavaScript, TypeScript, Redux-toolkit, MaterialUI(4,5), CSS Modules, testing-library/react, jest, Formik, Google maps</p>
+                                <p className={'text-white mt-2 ml-2'}>React, Next.js Javascript, Typescript, Redux-toolkit, materialUI, CSS Modules, testing-
+                                    library/react, jest, Formik, Google maps.</p>
                             </div>
                             <div>
                                 <h3 className={'text-gray-500 font-armata mt-2'}>Key responsibilities</h3>
