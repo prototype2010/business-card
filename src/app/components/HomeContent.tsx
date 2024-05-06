@@ -1,22 +1,12 @@
 'use client'
 
 import Image from 'next/image';
-import ProgressLine from "@/app/components/ProgressLine";
-import CircleProgressBar from "@/app/components/CircleProgressBar";
 import FAQAccordion from "@/app/components/FAQAccordion";
 import {useState} from "react";
 import Footer from "@/app/components/Footer";
 import Link from "next/link";
 import StyledList from "@/app/components/StyledList";
 import IconList from "@/app/components/IconList";
-import brocoders from '../../../public/brocoders.jpg';
-import softIndustry from '../../../public/softIndustry.jpg';
-import netcracer from '../../../public/netCracker.jpg';
-import ssu from '../../../public/ssu.jpg';
-// import factory from '../../../public/1648factory.png';
-import references1 from '../../../public/references1.jpg';
-import references2 from '../../../public/references2.jpg';
-import references3 from '../../../public/references3.jpg';
 import ContactForm from "@/app/components/ContactForm";
 import Portfolio from "@/app/components/Portfolio";
 import portfolio1 from '../../../public/portfolio1.jpg';
@@ -287,7 +277,7 @@ const HomeContent = () => {
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
                             <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Frontend/Backend
                                 Developer</h3>
-                            <Image className={'mt-4 mb-2 w-36 h-36'} src={brocoders} alt="brocoders"/>
+                            <Image className={'mt-4 mb-2 w-36 h-36'} src={'/brocoders.jpg'} width={144} height={144} alt="brocoders"/>
                             <span
                               className={'text-white font-armata font-bold'}>Brocoders Software Development Company</span>
 
@@ -326,7 +316,7 @@ const HomeContent = () => {
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
                             <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Javascript developer (FedEX
                                 Outstaff)</h3>
-                            <Image className={'mt-4 mb-2 w-36 h-36'} src={softIndustry} alt="softIndustry"/>
+                            <Image className={'mt-4 mb-2 w-36 h-36'} src={'/softIndustry.jpg'} width={144} height={144} alt="softIndustry"/>
                             <span className={'text-white font-bold font-armata'}>Soft Industry Alliance Ltd.</span>
                             <div>
                                 <h3 className={'text-gray-500 font-armata mt-2'}>Projects:</h3>
@@ -359,7 +349,7 @@ const HomeContent = () => {
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
                             <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Test Automation Engineer</h3>
-                            <Image className={'mt-4 mb-2 w-36 h-36'} src={netcracer} alt="netcracer"/>
+                            <Image className={'mt-4 mb-2 w-36 h-36'} src={'/netCracker.jpg'}  width={144} height={144} alt="netcracer"/>
                             <span className={'text-white font-bold font-armata'}>Netcraker technology</span>
                             <div>
                                 <h3 className={'text-gray-500 font-armata mt-2'}>Projects:</h3>
@@ -390,63 +380,10 @@ const HomeContent = () => {
                             <div className={'w-0 h-0 border-t-[16px] border-t-transparent border-l-[14px] border-l-mainColor border-b-[16px] border-b-transparent'}></div>
                             <div className={'pl-6 flex-initial w-3/4'}>
                                 <h3 className={'lg:text-lg text-white font-bold text-sm'}>Master of Economics,Finance</h3>
-                                <Image className={'w-36 h-36 my-4'} src={ssu} alt="university"/>
+                                <Image className={'w-36 h-36 my-4'} src={'/ssu.jpg'} width={144} height={144} alt="university"/>
                                 <span className={'text-gray-500 xxs:text-sm font-armata'}>Sumy State University</span>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <section className={'bg-secondColor lg:mt-4 lg:ml-8 pb-10 font-aldrich'}>
-                <h2 className={'text-white font-bold text-2xl pt-8 pl-10'}>CLIENTS</h2>
-                <ul className={'2xs:flex 2xs:flex-wrap 2xs:px-10 px-2 '}>
-                    {/*<li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>*/}
-                    {/*    <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-wordpress.png"  alt="client"/>*/}
-                    {/*</li>*/}
-                    {/*<li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>*/}
-                    {/*    <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-bootstrap.png" alt="client"/>*/}
-                    {/*</li>*/}
-                    {/*<li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>*/}
-                    {/*    <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-jquery.png" alt="client"/>*/}
-                    {/*</li>*/}
-                    {/*<li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>*/}
-                    {/*    <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-compass.png" alt="client"/>*/}
-                    {/*</li>*/}
-                    {/*<li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>*/}
-                    {/*    <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-teaspoon.png" alt="client"/>*/}
-                    {/*</li>*/}
-                    {/*<li className={'2xs:w-1/3 mt-6 flex justify-center items-center'}>*/}
-                    {/*    <Image src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/05/logo-evernote.png" alt="client"/>*/}
-                    {/*</li>*/}
-                </ul>
-                <hr className={'border-1 border-gray-800 w-5/6 mx-auto mt-6'}/>
-                <div id={'references'}>
-                    <h2 className={'text-white font-bold text-2xl pt-8 pl-10'}>REFERENCES</h2>
-                    <div className={'flex md:mx-20 mx-8 mt-8 '}>
-                        <Image className={'w-16 h-16 rounded-full grayscale hover:grayscale-0'} src={references1} alt="photo"/>
-                        <div className={'ml-4'}>
-                            <strong className={'text-white'}>EDWIN BALLARD</strong>
-                            <div className={'text-gray-500'}>West Alexandrine</div>
-                            <p className={'mt-6 text-white'}>Your brand is the core of your marketing, the central theme around your products and services.Your brand is not your Logo or your Company Name</p>
-                        </div>
-                    </div>
-                </div>
-                <hr className={'border-1 border-gray-800 w-4/6 mx-auto mt-6'}/>
-                <div className={'flex md:mx-20 mx-8 mt-8'}>
-                    <Image className={'w-16 h-16 rounded-full grayscale hover:grayscale-0'} src={references2} alt="photo"/>
-                    <div className={'ml-4'}>
-                        <strong className={'text-white'}>FRANKLIN MAY</strong>
-                        <div className={'text-gray-500'}>Modern LLC,HR</div>
-                        <p className={'mt-6 text-white'}>Your brand is the core of your marketing, the central theme around your products and services.Your brand is not your Logo or your Company Name</p>
-                    </div>
-                </div>
-                <hr className={'border-1 border-gray-800 w-4/6 mx-auto mt-6'}/>
-                <div className={'flex md:mx-20 mx-8 mt-8'}>
-                    <Image  className={'w-16 h-16 rounded-full grayscale hover:grayscale-0'} src={references3} alt="photo"/>
-                    <div className={'ml-4'}>
-                        <strong className={'text-white'}>HATTIE MAXWELL</strong>
-                        <div className={'text-gray-500'}>West Alexandrine</div>
-                        <p className={'mt-6 text-white'}>Your brand is the core of your marketing, the central theme around your products and services.Your brand is not your Logo or your Company Name</p>
                     </div>
                 </div>
             </section>
@@ -470,23 +407,23 @@ const HomeContent = () => {
                 <div className={'mt-4 2xs:flex 2xs:flex-wrap block'}>
                     <div className={'flex 2xs:w-1/4 w-1/2 mt-6 ml-10'}>
                         <svg className={'w-6 h-6 mr-4 fill-mainColor'} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M309.6 158.5L332.7 19.8C334.6 8.4 344.5 0 356.1 0c7.5 0 14.5 3.5 19 9.5L392 32h52.1c12.7 0 24.9 5.1 33.9 14.1L496 64h56c13.3 0 24 10.7 24 24v24c0 44.2-35.8 80-80 80H464 448 426.7l-5.1 30.5-112-64zM416 256.1L416 480c0 17.7-14.3 32-32 32H352c-17.7 0-32-14.3-32-32V364.8c-24 12.3-51.2 19.2-80 19.2s-56-6.9-80-19.2V480c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V249.8c-28.8-10.9-51.4-35.3-59.2-66.5L1 167.8c-4.3-17.1 6.1-34.5 23.3-38.8s34.5 6.1 38.8 23.3l3.9 15.5C70.5 182 83.3 192 98 192h30 16H303.8L416 256.1zM464 80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z"/></svg>
-                        <span className={'text-white lg:text-xl'}>Animals</span>
+                        <span className={'text-white lg:text-xl'}>Yoga</span>
                     </div>
                     <div className={'flex 2xs:w-1/4 w-1/2 mt-6 ml-10'}>
                         <svg className={'w-6 h-6 mr-4 fill-mainColor'} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z"/></svg>
-                        <span className={'text-white lg:text-xl'}>Travel</span>
+                        <span className={'text-white lg:text-xl'}>Technologies</span>
                     </div>
                     <div className={'flex 2xs:w-1/4 w-1/2 mt-6 ml-10'}>
                         <svg className={'w-6 h-6 mr-4 fill-mainColor'} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M312 32c-13.3 0-24 10.7-24 24s10.7 24 24 24h25.7l34.6 64H222.9l-27.4-38C191 99.7 183.7 96 176 96H120c-13.3 0-24 10.7-24 24s10.7 24 24 24h43.7l22.1 30.7-26.6 53.1c-10-2.5-20.5-3.8-31.2-3.8C57.3 224 0 281.3 0 352s57.3 128 128 128c65.3 0 119.1-48.9 127-112h49c8.5 0 16.3-4.5 20.7-11.8l84.8-143.5 21.7 40.1C402.4 276.3 384 312 384 352c0 70.7 57.3 128 128 128s128-57.3 128-128s-57.3-128-128-128c-13.5 0-26.5 2.1-38.7 6L375.4 48.8C369.8 38.4 359 32 347.2 32H312zM458.6 303.7l32.3 59.7c6.3 11.7 20.9 16 32.5 9.7s16-20.9 9.7-32.5l-32.3-59.7c3.6-.6 7.4-.9 11.2-.9c39.8 0 72 32.2 72 72s-32.2 72-72 72s-72-32.2-72-72c0-18.6 7-35.5 18.6-48.3zM133.2 368h65c-7.3 32.1-36 56-70.2 56c-39.8 0-72-32.2-72-72s32.2-72 72-72c1.7 0 3.4 .1 5.1 .2l-24.2 48.5c-9 18.1 4.1 39.4 24.3 39.4zm33.7-48l50.7-101.3 72.9 101.2-.1 .1H166.8zm90.6-128H365.9L317 274.8 257.4 192z"/></svg>
-                        <span className={'text-white lg:text-xl'}>Bicycle</span>
+                        <span className={'text-white lg:text-xl'}>Sport</span>
                     </div>
                     <div className={'flex 2xs:w-1/4 w-1/2 mt-6 ml-10'}>
                         <svg className={'w-6 h-6 mr-4 fill-mainColor'} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M155.6 17.3C163 3 179.9-3.6 195 1.9L320 47.5l125-45.6c15.1-5.5 32 1.1 39.4 15.4l78.8 152.9c28.8 55.8 10.3 122.3-38.5 156.6L556.1 413l41-15c16.6-6 35 2.5 41 19.1s-2.5 35-19.1 41l-71.1 25.9L476.8 510c-16.6 6.1-35-2.5-41-19.1s2.5-35 19.1-41l41-15-31.3-86.2c-59.4 5.2-116.2-34-130-95.2L320 188.8l-14.6 64.7c-13.8 61.3-70.6 100.4-130 95.2l-31.3 86.2 41 15c16.6 6 25.2 24.4 19.1 41s-24.4 25.2-41 19.1L92.2 484.1 21.1 458.2c-16.6-6.1-25.2-24.4-19.1-41s24.4-25.2 41-19.1l41 15 31.3-86.2C66.5 292.5 48.1 226 76.9 170.2L155.6 17.3zm44 54.4l-27.2 52.8L261.6 157l13.1-57.9L199.6 71.7zm240.9 0L365.4 99.1 378.5 157l89.2-32.5L440.5 71.7z"/></svg>
-                        <span className={'text-white lg:text-xl'}>Parties</span>
+                        <span className={'text-white lg:text-xl'}>Reading</span>
                     </div>
                     <div className={'flex 2xs:w-1/4 w-1/2 mt-6 ml-10'}>
                         <svg className={'w-6 h-6 mr-4 fill-mainColor'} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M234.7 42.7L197 56.8c-3 1.1-5 4-5 7.2s2 6.1 5 7.2l37.7 14.1L248.8 123c1.1 3 4 5 7.2 5s6.1-2 7.2-5l14.1-37.7L315 71.2c3-1.1 5-4 5-7.2s-2-6.1-5-7.2L277.3 42.7 263.2 5c-1.1-3-4-5-7.2-5s-6.1 2-7.2 5L234.7 42.7zM46.1 395.4c-18.7 18.7-18.7 49.1 0 67.9l34.6 34.6c18.7 18.7 49.1 18.7 67.9 0L529.9 116.5c18.7-18.7 18.7-49.1 0-67.9L495.3 14.1c-18.7-18.7-49.1-18.7-67.9 0L46.1 395.4zM484.6 82.6l-105 105-23.3-23.3 105-105 23.3 23.3zM7.5 117.2C3 118.9 0 123.2 0 128s3 9.1 7.5 10.8L64 160l21.2 56.5c1.7 4.5 6 7.5 10.8 7.5s9.1-3 10.8-7.5L128 160l56.5-21.2c4.5-1.7 7.5-6 7.5-10.8s-3-9.1-7.5-10.8L128 96 106.8 39.5C105.1 35 100.8 32 96 32s-9.1 3-10.8 7.5L64 96 7.5 117.2zm352 256c-4.5 1.7-7.5 6-7.5 10.8s3 9.1 7.5 10.8L416 416l21.2 56.5c1.7 4.5 6 7.5 10.8 7.5s9.1-3 10.8-7.5L480 416l56.5-21.2c4.5-1.7 7.5-6 7.5-10.8s-3-9.1-7.5-10.8L480 352l-21.2-56.5c-1.7-4.5-6-7.5-10.8-7.5s-9.1 3-10.8 7.5L416 352l-56.5 21.2z"/></svg>
-                        <span className={'text-white lg:text-xl'}>Harry Potter</span>
+                        <span className={'text-white lg:text-xl'}>Family</span>
                     </div>
                     <div className={'flex 2xs:w-1/4 w-1/2 mt-6 ml-10'}>
                         <svg className={'w-6 h-6 mr-4 fill-mainColor'} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M96 64c0-17.7 14.3-32 32-32H448h64c70.7 0 128 57.3 128 128s-57.3 128-128 128H480c0 53-43 96-96 96H192c-53 0-96-43-96-96V64zM480 224h32c35.3 0 64-28.7 64-64s-28.7-64-64-64H480V224zM32 416H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
@@ -542,7 +479,7 @@ const HomeContent = () => {
                             {/*              </span>*/}
                             {/*</li>*/}
                             <li className={'hover:opacity-60 cursor-pointer'}>
-                                <Link target='_blank' href={'https://ua.linkedin.com/in/alexander-zakorko-70858815b'}>
+                                <Link target='_blank' href={'https://ua.linkedin.com/in/alexander-zakorko'}>
                                       <span className="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-white">
                                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                                               <path
