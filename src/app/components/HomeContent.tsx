@@ -223,10 +223,11 @@ const HomeContent = () => {
                     <ul className={'font-aldrich pt-4'}>
                         <StyledList name={'Customer oriented'}/>
                         <StyledList name={'Build relationship'}/>
-                        <StyledList name={'Work fast and clean'}/>
                         <StyledList name={'Creative Thinking'}/>
                         <StyledList name={'Self Motivated'}/>
-                        <StyledList name={'Great at remote work with various time zones'}/>
+                        <StyledList name={'Self organized'}/>
+                        <StyledList name={'Work fast'}/>
+                        <StyledList name={'Cover by test'}/>
                     </ul>
                 </div>
                 <div className={'lg:flex-initial md:w-1/2 mt-6 pl-6 pb-10 font-aldrich'}>
@@ -252,26 +253,24 @@ const HomeContent = () => {
                             <div className={'h-[150%] bg-mainColor w-[2px] ml-[1px]'}></div>
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
-                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Senior Frontend Developer, Freelancer</h3>
-                            {/*<Image className={'mt-4 mb-2 w-36 h-36'} src={factory} alt="1648factory"/>*/}
-                            {/*<span className={'text-gray-500 font-armata'}>1648 Factory-IT Services</span>*/}
+                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Senior Frontend Developer,
+                                Freelancer</h3>
                             <div>
                                 <h3 className={'text-gray-500 font-armata mt-2'}>Projects:</h3>
-                                <p className={'text-white mt-2 ml-2'}>Online casino, Ad aggregator, Project management tool</p>
+                                <p className={'text-white mt-2 ml-2'}>Online casino, Ad aggregator, Project management
+                                    tool</p>
                             </div>
                             <div>
-                                <h3 className={'text-gray-500 font-armata mt-2'}>Technologies</h3>
-                                <p className={'text-white mt-2 ml-2'}>React, Next.js Javascript, Typescript, Redux-toolkit, materialUI, CSS Modules, testing-
-                                    library/react, jest, Formik, Google maps.</p>
-                            </div>
-                            <div>
-                                <h3 className={'text-gray-500 font-armata mt-2'}>Key responsibilities</h3>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Acomplishments:</h3>
                                 <ul className={'text-white mt-2 ml-2 list-disc pl-3'}>
-                                    <li>Develop and support existing application on React.js/TypeScript/JavaScript</li>
-                                    <li>Improve existing architecture: cover by tests, refactor, analyze</li>
-                                    <li>Conduct demos</li>
-                                    <li>Increase test coverage</li>
+                                    <li>Covered complex code base with unit / integration tests, mentored other developers in writing tests</li>
+                                    <li>Developed components for A/B testing which allowed to increase income by decreasing development time to 30%</li>
+                                    <li>Made major refactoring, which allowed to develop faster by 20%</li>
                                 </ul>
+                            </div>
+                            <div>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Technologies:</h3>
+                                <p className={'text-white mt-2 ml-2'}>React, Next.js Javascript, Typescript, Redux-toolkit, materialUI, testing-library/react, jest, Formik, Google maps.</p>
                             </div>
                         </div>
                     </div>
@@ -279,60 +278,79 @@ const HomeContent = () => {
                           <span className={'flex-initial w-20 xs:w-36 md:w-48 h-8 bg-mainColor text-center leading-8'}>
                               <span className={'text-white xxs:text-xs md:text-lg'}>2019-2021</span>
                           </span>
-                        <div className={'w-0 h-0 border-t-[16px] border-t-transparent border-l-[14px] border-l-mainColor border-b-[16px] border-b-transparent'}></div>
+                        <div
+                          className={'w-0 h-0 border-t-[16px] border-t-transparent border-l-[14px] border-l-mainColor border-b-[16px] border-b-transparent'}></div>
                         <div className={'mt-4 ml-3 xxs:ml-1'}>
                             <div className={'w-1 h-1 bg-white rounded-full'}></div>
                             <div className={'h-[150%] bg-mainColor w-[2px] ml-[1px]'}></div>
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
-                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Frontend/Backend Developer</h3>
+                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Frontend/Backend
+                                Developer</h3>
                             <Image className={'mt-4 mb-2 w-36 h-36'} src={brocoders} alt="brocoders"/>
-                            <span className={'text-white font-armata font-bold'}>Brocoders-Software Development Company</span>
+                            <span
+                              className={'text-white font-armata font-bold'}>Brocoders Software Development Company</span>
+
                             <div>
-                                <h3 className={'text-gray-500 font-armata mt-2'}>Technologies</h3>
-                                <p className={'text-white mt-2 ml-2'}><span className={'font-bold'}>Frontend:</span> React, JavaScript, TypeScript, Redux-toolkit, RxJS,  MaterialUI, Webpack, Reselect, material-table, Redux-saga, testing-library/react, jest, jest-puppeteer</p>
-                                <p className={'text-white mt-2 ml-2'}><span className={'font-bold'}>Backend:</span> NodeJS, NestJS, AdonisJS, Typeorm, Sequelize, Postgres, Redis, Ruby, RSpec, Rails(1year experience on backend)</p>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Projects:</h3>
+                                <p className={'text-white mt-2 ml-2'}>HR & Recruiting management system,  food quality application, team of 10</p>
                             </div>
                             <div>
-                                <h3 className={'text-gray-500 font-armata mt-2'}>Key responsibilities</h3>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Acomplishments:</h3>
                                 <ul className={'text-white mt-2 ml-2 list-disc pl-3'}>
-                                    <li>Ideate and implement application architecture alternatives</li>
-                                    <li>Research and implement the congruent test environment(e2e/unit/integration)</li>
-                                    <li>Develop and support applications on React.js, Node.js, Nest.js, Ruby on rails</li>
+                                    <li>Covered both frontend and backend projects with tests, which reduced manual
+                                        testing and regression time by 45%.
+                                    </li>
+                                    <li>Made significant refacoring which improved development speed by 30%</li>
+                                    <li>Migrated several projects from javascript to typescript / React</li>
                                 </ul>
+                            </div>
+                            <div>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Technologies:</h3>
+                                <p className={'text-white mt-2 ml-2'}> React, Redux, Javascript, Typescript, MaterialUI,
+                                    Node.js, Nest.js, ruby, rails, Postgres, jest</p>
                             </div>
                         </div>
                     </div>
                     <div className={'flex md:pl-6 pl-2 pt-8 lg:pl-12'}>
-                                  <span className={'flex-initial md:w-48 w-20 xs:w-36 h-8 bg-mainColor text-center leading-8 '}>
+                                  <span
+                                    className={'flex-initial md:w-48 w-20 xs:w-36 h-8 bg-mainColor text-center leading-8 '}>
                                       <span className={'text-white xxs:text-xs md:text-lg'}>2017-2019</span>
                                   </span>
-                        <div className={'w-0 h-0 border-t-[16px] border-t-transparent border-l-[14px] border-l-mainColor border-b-[16px] border-b-transparent'}></div>
+                        <div
+                          className={'w-0 h-0 border-t-[16px] border-t-transparent border-l-[14px] border-l-mainColor border-b-[16px] border-b-transparent'}></div>
                         <div className={'mt-4 ml-3 xxs:ml-1'}>
-                            <div className={'w-1 h-1 bg-white rounded-full'}></div>
+                        <div className={'w-1 h-1 bg-white rounded-full'}></div>
                             <div className={'xs:h-[114.5%] md:h-[123%] 912:h-[125%] 1261:h-[110%] lg:h-[115%] xl:h-[118%] bg-mainColor w-[2px] ml-[1px] 2xs:h-[120%] h-[108%]'}></div>
                         </div>
                         <div className={'pl-6 flex-initial w-3/4 xxs:w-1/2 xxs:pl-2 xxs:break-words lg:pl-6'}>
-                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Javascript developer</h3>
+                            <h3 className={'text-white font-bold xxs:text-sm lg:text-xl'}>Javascript developer (FedEX
+                                Outstaff)</h3>
                             <Image className={'mt-4 mb-2 w-36 h-36'} src={softIndustry} alt="softIndustry"/>
                             <span className={'text-white font-bold font-armata'}>Soft Industry Alliance Ltd.</span>
                             <div>
-                                <h3 className={'text-gray-500 font-armata mt-2'}>Technologies</h3>
-                                <p className={'text-white mt-2 ml-2'}>React, Redux, Redux-saga, vanilla javascript, three.js, styled-components, webpack, canvas</p>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Projects:</h3>
+                                <p className={'text-white mt-2 ml-2'}>package tracking, 3D package modeling, conveyor
+                                    line realtime simulator</p>
                             </div>
                             <div>
-                                <h3 className={'text-gray-500 font-armata mt-2'}>Key responsibilities</h3>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Acomplishments:</h3>
                                 <ul className={'text-white mt-2 ml-2 list-disc pl-3'}>
-                                    <li>Develop enterprise system</li>
-                                    <li>Support of several applications on vanilla javascript, eact</li>
-                                    <li>Conduct code review and mentorship</li>
-                                    <li>Conduct demos</li>
+                                    <li>Created friendly local development and test environment which increased development time by 20%</li>
+                                    <li>Migrated several existing projects from javascript to npm ecosystem</li>
+                                    <li>Refactored the application to make it easier to customize, which improved product sales</li>
                                 </ul>
+                            </div>
+                            <div>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Technologies:</h3>
+                                <p className={'text-white mt-2 ml-2'}>React, Redux, vanilla javascript, three.js,
+                                    canvas, CSS 3</p>
                             </div>
                         </div>
                     </div>
                     <div className={'flex md:pl-6 pl-1 pt-8 pb-12 xxs:pl-2 lg:pl-12'}>
-                                  <span className={'flex-initial w-20 xs:w-36 md:w-48 h-8 bg-mainColor text-center leading-8 '}>
+                                  <span
+                                    className={'flex-initial w-20 xs:w-36 md:w-48 h-8 bg-mainColor text-center leading-8 '}>
                                       <span className={'text-white text-xs md:text-lg'}>2016-2017</span>
                                   </span>
                         <div className={'w-0 h-0 border-t-[16px] border-t-transparent border-l-[14px] border-l-mainColor border-b-[16px] border-b-transparent'}></div>
@@ -344,17 +362,21 @@ const HomeContent = () => {
                             <Image className={'mt-4 mb-2 w-36 h-36'} src={netcracer} alt="netcracer"/>
                             <span className={'text-white font-bold font-armata'}>Netcraker technology</span>
                             <div>
-                                <h3 className={'text-gray-500 font-armata mt-2'}>Technologies</h3>
-                                <p className={'text-white mt-2 ml-2'}>Java, JavaScript, Selenium</p>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Projects:</h3>
+                                <p className={'text-white mt-2 ml-2'}>Network management system for Ecuador telecom</p>
                             </div>
                             <div>
-                                <h3 className={'text-gray-500 font-armata mt-2'}>Key responsibilities</h3>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Acomplishments:</h3>
                                 <ul className={'text-white mt-2 ml-2 list-disc pl-3'}>
-                                    <li>Create autotests and test utils using Java</li>
-                                    <li>Support test framework</li>
-                                    <li>Stub/script test framework using javascript</li>
-                                    <li>Monitor test coverage</li>
+                                    <li>Increased project integration testing coverage by 30%</li>
+                                    <li>Increased tests development speed by 20% by creating utils</li>
+                                    <li>Created factories for generating test data
+                                    </li>
                                 </ul>
+                            </div>
+                            <div>
+                                <h3 className={'text-gray-500 font-armata mt-2'}>Technologies:</h3>
+                                <p className={'text-white mt-2 ml-2'}>Java, JavaScript, Selenium</p>
                             </div>
                         </div>
                     </div>
